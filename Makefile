@@ -15,7 +15,7 @@ all: dynamiclib test
 
 clean:
 	@echo "Cleaning object files,dynamic library, and the tests"
-	rm -f $(BUILDDIR)*.o *.so $(TESTDIR)Test $(TESTDIR)*.vtp $(TESTDIR)*.so $(TESTDIR)mhd.py*
+	rm -f $(BUILDDIR)*.o $(TESTDIR)Test $(TESTDIR)*.vtp $(TESTDIR)*.so $(TESTDIR)mhd.py*
 
 
 dynamiclib: $(OBJECTS)
