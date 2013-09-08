@@ -1,0 +1,194 @@
+\hypertarget{classMhd_1_1MhdPythonOrientation}{\section{\-Mhd\-:\-:\-Mhd\-Python\-Orientation \-Class \-Reference}
+\label{classMhd_1_1MhdPythonOrientation}\index{\-Mhd\-::\-Mhd\-Python\-Orientation@{\-Mhd\-::\-Mhd\-Python\-Orientation}}
+}
+
+
+\-The class used for the \-Python interface.  
+
+
+
+
+{\ttfamily \#include $<$\-Mhd\-Python\-Orientation.\-hxx$>$}
+
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classMhd_1_1MhdPythonOrientation_a7b416c1cd0f1ce25a5f9528c09b1627f}{\-Orientation\-Reader} (char $\ast$\-Input\-File)
+\begin{DoxyCompactList}\small\item\em \-Read from a .mhd file the parameters. \end{DoxyCompactList}\item 
+void \hyperlink{classMhd_1_1MhdPythonOrientation_ad6f7afb1a8037e25b1fc75ff9f69482c}{\-Orientation\-Writer} (char $\ast$\-Output\-File)
+\begin{DoxyCompactList}\small\item\em \-Write on a file the parameters in .mhd format. \end{DoxyCompactList}\item 
+void \hyperlink{classMhd_1_1MhdPythonOrientation_a13afc263f356f04c0a4b3fdea100d404}{\-Convert\-To\-Ras} (size\-\_\-t i=1)
+\begin{DoxyCompactList}\small\item\em \-Method used to convert the orientation to \-R\-A\-S orientation. \end{DoxyCompactList}\item 
+void \hyperlink{classMhd_1_1MhdPythonOrientation_a68aa8ee651b7e2f9b55efdaa32a9312a}{\-Compute\-Angles} ()
+\begin{DoxyCompactList}\small\item\em \-Compute the rotation angles from the \-Transform\-Matrix. \end{DoxyCompactList}\item 
+void \hyperlink{classMhd_1_1MhdPythonOrientation_a2cba17c77a9f6bf2cbc15f7c579a025e}{\-Compute\-Rotation} (float $\ast$angles)
+\begin{DoxyCompactList}\small\item\em \-Compute from the angle given the \-Transform\-Matrix. \end{DoxyCompactList}\item 
+float \hyperlink{classMhd_1_1MhdPythonOrientation_aec7c65c9ee80de78e5864f59534b3e70}{\-R} (size\-\_\-t i, size\-\_\-t j)
+\begin{DoxyCompactList}\small\item\em \-Returns the element (i,j) of the \-Transform\-Matrix. \end{DoxyCompactList}\item 
+float \hyperlink{classMhd_1_1MhdPythonOrientation_a3a7d814f43db6467745b3e8fb560d131}{\-O} (size\-\_\-t i)
+\begin{DoxyCompactList}\small\item\em \-Returns i-\/th element of \-Offset. \end{DoxyCompactList}\item 
+float \hyperlink{classMhd_1_1MhdPythonOrientation_ae0ba80dda30201e44da8bf92ffe6ea9f}{\-C} (size\-\_\-t i)
+\begin{DoxyCompactList}\small\item\em \-Returns i-\/th element of \-Center\-Of\-Rotation. \end{DoxyCompactList}\item 
+const char $\ast$ \hyperlink{classMhd_1_1MhdPythonOrientation_a1be203fbdcfeae1d50f3f995c9397720}{\-A\-O} ()
+\begin{DoxyCompactList}\small\item\em \-Returns the stored \-Anatomical\-Orientaion. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-The class used for the \-Python interface. 
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{classMhd_1_1MhdPythonOrientation_a1be203fbdcfeae1d50f3f995c9397720}{\index{\-Mhd\-::\-Mhd\-Python\-Orientation@{\-Mhd\-::\-Mhd\-Python\-Orientation}!\-A\-O@{\-A\-O}}
+\index{\-A\-O@{\-A\-O}!Mhd::MhdPythonOrientation@{\-Mhd\-::\-Mhd\-Python\-Orientation}}
+\subsubsection[{\-A\-O}]{\setlength{\rightskip}{0pt plus 5cm}const char$\ast$ {\bf \-Mhd\-::\-Mhd\-Python\-Orientation\-::\-A\-O} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classMhd_1_1MhdPythonOrientation_a1be203fbdcfeae1d50f3f995c9397720}
+
+
+\-Returns the stored \-Anatomical\-Orientaion. 
+
+\begin{DoxyReturn}{\-Returns}
+the orientation 
+\end{DoxyReturn}
+\hypertarget{classMhd_1_1MhdPythonOrientation_ae0ba80dda30201e44da8bf92ffe6ea9f}{\index{\-Mhd\-::\-Mhd\-Python\-Orientation@{\-Mhd\-::\-Mhd\-Python\-Orientation}!\-C@{\-C}}
+\index{\-C@{\-C}!Mhd::MhdPythonOrientation@{\-Mhd\-::\-Mhd\-Python\-Orientation}}
+\subsubsection[{\-C}]{\setlength{\rightskip}{0pt plus 5cm}float {\bf \-Mhd\-::\-Mhd\-Python\-Orientation\-::\-C} (
+\begin{DoxyParamCaption}
+\item[{size\-\_\-t}]{i}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classMhd_1_1MhdPythonOrientation_ae0ba80dda30201e44da8bf92ffe6ea9f}
+
+
+\-Returns i-\/th element of \-Center\-Of\-Rotation. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em i} & \-The i-\/th element of \-Center\-Of\-Rotation\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+float element of the \-Center\-Of\-Rotation 
+\end{DoxyReturn}
+\hypertarget{classMhd_1_1MhdPythonOrientation_a68aa8ee651b7e2f9b55efdaa32a9312a}{\index{\-Mhd\-::\-Mhd\-Python\-Orientation@{\-Mhd\-::\-Mhd\-Python\-Orientation}!\-Compute\-Angles@{\-Compute\-Angles}}
+\index{\-Compute\-Angles@{\-Compute\-Angles}!Mhd::MhdPythonOrientation@{\-Mhd\-::\-Mhd\-Python\-Orientation}}
+\subsubsection[{\-Compute\-Angles}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Mhd\-::\-Mhd\-Python\-Orientation\-::\-Compute\-Angles} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classMhd_1_1MhdPythonOrientation_a68aa8ee651b7e2f9b55efdaa32a9312a}
+
+
+\-Compute the rotation angles from the \-Transform\-Matrix. 
+
+\hypertarget{classMhd_1_1MhdPythonOrientation_a2cba17c77a9f6bf2cbc15f7c579a025e}{\index{\-Mhd\-::\-Mhd\-Python\-Orientation@{\-Mhd\-::\-Mhd\-Python\-Orientation}!\-Compute\-Rotation@{\-Compute\-Rotation}}
+\index{\-Compute\-Rotation@{\-Compute\-Rotation}!Mhd::MhdPythonOrientation@{\-Mhd\-::\-Mhd\-Python\-Orientation}}
+\subsubsection[{\-Compute\-Rotation}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Mhd\-::\-Mhd\-Python\-Orientation\-::\-Compute\-Rotation} (
+\begin{DoxyParamCaption}
+\item[{float $\ast$}]{angles}
+\end{DoxyParamCaption}
+)}}\label{classMhd_1_1MhdPythonOrientation_a2cba17c77a9f6bf2cbc15f7c579a025e}
+
+
+\-Compute from the angle given the \-Transform\-Matrix. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em angles} & \-The angle used to compute the \-Transform\-Matrix \\
+\hline
+\end{DoxyParams}
+\hypertarget{classMhd_1_1MhdPythonOrientation_a13afc263f356f04c0a4b3fdea100d404}{\index{\-Mhd\-::\-Mhd\-Python\-Orientation@{\-Mhd\-::\-Mhd\-Python\-Orientation}!\-Convert\-To\-Ras@{\-Convert\-To\-Ras}}
+\index{\-Convert\-To\-Ras@{\-Convert\-To\-Ras}!Mhd::MhdPythonOrientation@{\-Mhd\-::\-Mhd\-Python\-Orientation}}
+\subsubsection[{\-Convert\-To\-Ras}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Mhd\-::\-Mhd\-Python\-Orientation\-::\-Convert\-To\-Ras} (
+\begin{DoxyParamCaption}
+\item[{size\-\_\-t}]{i = {\ttfamily 1}}
+\end{DoxyParamCaption}
+)}}\label{classMhd_1_1MhdPythonOrientation_a13afc263f356f04c0a4b3fdea100d404}
+
+
+\-Method used to convert the orientation to \-R\-A\-S orientation. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em i} & \-Select the i-\/th to perform the conversion \\
+\hline
+\end{DoxyParams}
+\hypertarget{classMhd_1_1MhdPythonOrientation_a3a7d814f43db6467745b3e8fb560d131}{\index{\-Mhd\-::\-Mhd\-Python\-Orientation@{\-Mhd\-::\-Mhd\-Python\-Orientation}!\-O@{\-O}}
+\index{\-O@{\-O}!Mhd::MhdPythonOrientation@{\-Mhd\-::\-Mhd\-Python\-Orientation}}
+\subsubsection[{\-O}]{\setlength{\rightskip}{0pt plus 5cm}float {\bf \-Mhd\-::\-Mhd\-Python\-Orientation\-::\-O} (
+\begin{DoxyParamCaption}
+\item[{size\-\_\-t}]{i}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classMhd_1_1MhdPythonOrientation_a3a7d814f43db6467745b3e8fb560d131}
+
+
+\-Returns i-\/th element of \-Offset. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em i} & \-The i-\/th element of \-Offset\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+float element of the \-Offset 
+\end{DoxyReturn}
+\hypertarget{classMhd_1_1MhdPythonOrientation_a7b416c1cd0f1ce25a5f9528c09b1627f}{\index{\-Mhd\-::\-Mhd\-Python\-Orientation@{\-Mhd\-::\-Mhd\-Python\-Orientation}!\-Orientation\-Reader@{\-Orientation\-Reader}}
+\index{\-Orientation\-Reader@{\-Orientation\-Reader}!Mhd::MhdPythonOrientation@{\-Mhd\-::\-Mhd\-Python\-Orientation}}
+\subsubsection[{\-Orientation\-Reader}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Mhd\-::\-Mhd\-Python\-Orientation\-::\-Orientation\-Reader} (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{\-Input\-File}
+\end{DoxyParamCaption}
+)}}\label{classMhd_1_1MhdPythonOrientation_a7b416c1cd0f1ce25a5f9528c09b1627f}
+
+
+\-Read from a .mhd file the parameters. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em \-Input\-File} & \-Input .mhd file \\
+\hline
+\end{DoxyParams}
+\hypertarget{classMhd_1_1MhdPythonOrientation_ad6f7afb1a8037e25b1fc75ff9f69482c}{\index{\-Mhd\-::\-Mhd\-Python\-Orientation@{\-Mhd\-::\-Mhd\-Python\-Orientation}!\-Orientation\-Writer@{\-Orientation\-Writer}}
+\index{\-Orientation\-Writer@{\-Orientation\-Writer}!Mhd::MhdPythonOrientation@{\-Mhd\-::\-Mhd\-Python\-Orientation}}
+\subsubsection[{\-Orientation\-Writer}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Mhd\-::\-Mhd\-Python\-Orientation\-::\-Orientation\-Writer} (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{\-Output\-File}
+\end{DoxyParamCaption}
+)}}\label{classMhd_1_1MhdPythonOrientation_ad6f7afb1a8037e25b1fc75ff9f69482c}
+
+
+\-Write on a file the parameters in .mhd format. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em \-Output\-File} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classMhd_1_1MhdPythonOrientation_aec7c65c9ee80de78e5864f59534b3e70}{\index{\-Mhd\-::\-Mhd\-Python\-Orientation@{\-Mhd\-::\-Mhd\-Python\-Orientation}!\-R@{\-R}}
+\index{\-R@{\-R}!Mhd::MhdPythonOrientation@{\-Mhd\-::\-Mhd\-Python\-Orientation}}
+\subsubsection[{\-R}]{\setlength{\rightskip}{0pt plus 5cm}float {\bf \-Mhd\-::\-Mhd\-Python\-Orientation\-::\-R} (
+\begin{DoxyParamCaption}
+\item[{size\-\_\-t}]{i, }
+\item[{size\-\_\-t}]{j}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classMhd_1_1MhdPythonOrientation_aec7c65c9ee80de78e5864f59534b3e70}
+
+
+\-Returns the element (i,j) of the \-Transform\-Matrix. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em i} & \-Row index of the \-Transform\-Matrix \\
+\hline
+{\em j} & \-Column index of the \-Transform\-Matrix\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+float element of the \-Transform\-Matrix 
+\end{DoxyReturn}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+lib/include/\hyperlink{MhdPythonOrientation_8hxx}{\-Mhd\-Python\-Orientation.\-hxx}\item 
+lib/src/\hyperlink{MhdPythonOrientation_8cxx}{\-Mhd\-Python\-Orientation.\-cxx}\end{DoxyCompactItemize}

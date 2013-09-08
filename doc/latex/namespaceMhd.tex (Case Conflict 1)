@@ -1,0 +1,19 @@
+\hypertarget{namespacemhd}{\section{mhd \-Namespace \-Reference}
+\label{namespacemhd}\index{mhd@{mhd}}
+}
+\subsection*{\-Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classmhd_1_1MhdOrientation}{\-Mhd\-Orientation}
+\end{DoxyCompactItemize}
+\subsection*{\-Variables}
+\begin{DoxyCompactItemize}
+\item 
+tuple \hyperlink{namespacemhd_a73fc547c087608ec30989f0bbc3e2a19}{lib} = ctypes.\-C\-D\-L\-L('./lib\-Mhd\-Orientation.\-so',mode=ctypes.\-R\-T\-L\-D\-\_\-\-G\-L\-O\-B\-A\-L)
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Variable \-Documentation}
+\hypertarget{namespacemhd_a73fc547c087608ec30989f0bbc3e2a19}{\index{mhd@{mhd}!lib@{lib}}
+\index{lib@{lib}!mhd@{mhd}}
+\subsubsection[{lib}]{\setlength{\rightskip}{0pt plus 5cm}tuple {\bf mhd\-::lib} = ctypes.\-C\-D\-L\-L('./lib\-Mhd\-Orientation.\-so',mode=ctypes.\-R\-T\-L\-D\-\_\-\-G\-L\-O\-B\-A\-L)}}\label{namespacemhd_a73fc547c087608ec30989f0bbc3e2a19}

@@ -32,4 +32,5 @@ test: dynamiclib
 	@cp $(LIBDIR)pymodule/mhd.py $(TESTDIR)
 	$(CC) $(TESTDIR)Test.cxx -I./$(INCLUDEDIR) $(TESTFLAGS) -o $(TESTDIR)Test
 
-.PHONY: clean
+
+.PHONY: clean all

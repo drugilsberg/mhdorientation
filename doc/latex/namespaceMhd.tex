@@ -1,0 +1,93 @@
+\hypertarget{namespaceMhd}{\section{\-Mhd \-Namespace \-Reference}
+\label{namespaceMhd}\index{\-Mhd@{\-Mhd}}
+}
+
+
+\-Namespace \hyperlink{namespaceMhd}{\-Mhd} referred to the classes and methods defined in the project \hyperlink{classMhd_1_1MhdOrientation}{\-Mhd\-Orientation}.  
+
+
+\subsection*{\-Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classMhd_1_1MhdFactory}{\-Mhd\-Factory}
+\begin{DoxyCompactList}\small\item\em \-The factory tha collects different \hyperlink{classMhd_1_1MhdOrientation}{\-Mhd\-Orientation}. \end{DoxyCompactList}\item 
+class \hyperlink{classMhd_1_1MhdOrientation}{\-Mhd\-Orientation}
+\begin{DoxyCompactList}\small\item\em \-Base class that contains methods to perform the \-R\-A\-S conversion. \end{DoxyCompactList}\item 
+class \hyperlink{classMhd_1_1AIL}{\-A\-I\-L}
+\begin{DoxyCompactList}\small\item\em \-Derived class to perform \-A\-I\-L-\/$>$\-R\-A\-S conversion. \end{DoxyCompactList}\item 
+class \hyperlink{classMhd_1_1ASL}{\-A\-S\-L}
+\item 
+class \hyperlink{classMhd_1_1RAI}{\-R\-A\-I}
+\item 
+class \hyperlink{classMhd_1_1LSA}{\-L\-S\-A}
+\item 
+class \hyperlink{classMhd_1_1MhdProxy}{\-Mhd\-Proxy}
+\begin{DoxyCompactList}\small\item\em \-A proxy used to build an object \hyperlink{classMhd_1_1MhdOrientation}{\-Mhd\-Orientation} and to register it in the factory. \end{DoxyCompactList}\item 
+class \hyperlink{classMhd_1_1MhdPythonOrientation}{\-Mhd\-Python\-Orientation}
+\begin{DoxyCompactList}\small\item\em \-The class used for the \-Python interface. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef std\-::unique\-\_\-ptr\*
+$<$ \hyperlink{classMhd_1_1MhdOrientation}{\-Mhd\-Orientation} $>$($\ast$ \hyperlink{namespaceMhd_a9b520e48eb7e726a85e6224875935aff}{\-Mhd\-Builder} )()
+\begin{DoxyCompactList}\small\item\em \-A typedef to the builder that returns a unique\-\_\-ptr to a \hyperlink{classMhd_1_1MhdOrientation}{\-Mhd\-Orientation} object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Functions}
+\begin{DoxyCompactItemize}
+\item 
+char $\ast$ \hyperlink{namespaceMhd_a85b72f6dc94ee4438e1511c3111686cb}{\-Mhd\-File\-Reader} (char $\ast$\-Input\-File)
+\begin{DoxyCompactList}\small\item\em \-Read from a file the \-Anatomical\-Orientation parameter. \end{DoxyCompactList}\item 
+ostream \& \hyperlink{namespaceMhd_a25ff0eba5426054880f213fb49a75670}{operator$<$$<$} (ostream \&out, const \hyperlink{classMhd_1_1MhdOrientation}{\-Mhd\-Orientation} \&\-K)
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-Namespace \hyperlink{namespaceMhd}{\-Mhd} referred to the classes and methods defined in the project \hyperlink{classMhd_1_1MhdOrientation}{\-Mhd\-Orientation}. 
+
+\subsection{\-Typedef \-Documentation}
+\hypertarget{namespaceMhd_a9b520e48eb7e726a85e6224875935aff}{\index{\-Mhd@{\-Mhd}!\-Mhd\-Builder@{\-Mhd\-Builder}}
+\index{\-Mhd\-Builder@{\-Mhd\-Builder}!Mhd@{\-Mhd}}
+\subsubsection[{\-Mhd\-Builder}]{\setlength{\rightskip}{0pt plus 5cm}typedef std\-::unique\-\_\-ptr$<${\bf \-Mhd\-Orientation} $>$($\ast$  {\bf \-Mhd\-::\-Mhd\-Builder})()}}\label{namespaceMhd_a9b520e48eb7e726a85e6224875935aff}
+
+
+\-A typedef to the builder that returns a unique\-\_\-ptr to a \hyperlink{classMhd_1_1MhdOrientation}{\-Mhd\-Orientation} object. 
+
+
+
+\subsection{\-Function \-Documentation}
+\hypertarget{namespaceMhd_a85b72f6dc94ee4438e1511c3111686cb}{\index{\-Mhd@{\-Mhd}!\-Mhd\-File\-Reader@{\-Mhd\-File\-Reader}}
+\index{\-Mhd\-File\-Reader@{\-Mhd\-File\-Reader}!Mhd@{\-Mhd}}
+\subsubsection[{\-Mhd\-File\-Reader}]{\setlength{\rightskip}{0pt plus 5cm}char $\ast$ {\bf \-Mhd\-::\-Mhd\-File\-Reader} (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{\-Input\-File}
+\end{DoxyParamCaption}
+)}}\label{namespaceMhd_a85b72f6dc94ee4438e1511c3111686cb}
+
+
+\-Read from a file the \-Anatomical\-Orientation parameter. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em \-Input\-File} & \-Input .mhd file\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+a string containing the orientation 
+\end{DoxyReturn}
+\hypertarget{namespaceMhd_a25ff0eba5426054880f213fb49a75670}{\index{\-Mhd@{\-Mhd}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Mhd@{\-Mhd}}
+\subsubsection[{operator$<$$<$}]{\setlength{\rightskip}{0pt plus 5cm}ostream\& \-Mhd\-::operator$<$$<$ (
+\begin{DoxyParamCaption}
+\item[{ostream \&}]{out, }
+\item[{const \-Mhd\-Orientation \&}]{\-K}
+\end{DoxyParamCaption}
+)}}\label{namespaceMhd_a25ff0eba5426054880f213fb49a75670}
+
+\begin{DoxyParams}{\-Parameters}
+{\em out} & \-Ostream for .mhd file writing \\
+\hline
+{\em \-K} & \-The object used to write the .mhd file\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+ofstream to write the object 
+\end{DoxyReturn}

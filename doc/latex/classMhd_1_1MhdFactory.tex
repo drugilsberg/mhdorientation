@@ -1,0 +1,164 @@
+\hypertarget{classMhd_1_1MhdFactory}{\section{\-Mhd\-:\-:\-Mhd\-Factory \-Class \-Reference}
+\label{classMhd_1_1MhdFactory}\index{\-Mhd\-::\-Mhd\-Factory@{\-Mhd\-::\-Mhd\-Factory}}
+}
+
+
+\-The factory tha collects different \hyperlink{classMhd_1_1MhdOrientation}{\-Mhd\-Orientation}.  
+
+
+
+
+{\ttfamily \#include $<$\-Mhd\-Factory.\-hxx$>$}
+
+\subsection*{\-Public \-Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef map$<$ string, \hyperlink{namespaceMhd_a9b520e48eb7e726a85e6224875935aff}{\-Mhd\-Builder} $>$ \hyperlink{classMhd_1_1MhdFactory_a6e31a057f01600271f9eab07a6684283}{\-Collector}
+\begin{DoxyCompactList}\small\item\em \-Collector of the orientations. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+unique\-\_\-ptr$<$ \hyperlink{classMhd_1_1MhdOrientation}{\-Mhd\-Orientation} $>$ \hyperlink{classMhd_1_1MhdFactory_a41095d4c88c3cd2a3bf8c24081b485b8}{\-Get} (string const \&\-Name) const 
+\begin{DoxyCompactList}\small\item\em \-Get an object of the factory. \end{DoxyCompactList}\item 
+void \hyperlink{classMhd_1_1MhdFactory_ae24c471f86ce728f63b9d639a5c57284}{\-Register} (string const \&\-Name, \hyperlink{namespaceMhd_a9b520e48eb7e726a85e6224875935aff}{\-Mhd\-Builder} const \&\-Func)  throw (invalid\-\_\-argument)
+\begin{DoxyCompactList}\small\item\em \-Registers in the factory the orientation given. \end{DoxyCompactList}\item 
+vector$<$ string $>$ \hyperlink{classMhd_1_1MhdFactory_a2e0a9c9984f7fea4251656bb3e401100}{\-Registered} () const 
+\begin{DoxyCompactList}\small\item\em \-List all the orientations contained in the factory. \end{DoxyCompactList}\item 
+void \hyperlink{classMhd_1_1MhdFactory_ab0a2f768224b9a72680b62540fde82c2}{\-Unset} (string const \&\-Name)
+\begin{DoxyCompactList}\small\item\em \-Remove the given orientation from the factory. \end{DoxyCompactList}\item 
+\hyperlink{classMhd_1_1MhdFactory_a80a3c72319b23cf062311e477720b04a}{$\sim$\-Mhd\-Factory} ()
+\item 
+\hyperlink{classMhd_1_1MhdFactory_a5a744415bb4094fa157cb6b913c72c2d}{\-Mhd\-Factory} ()
+\end{DoxyCompactItemize}
+\subsection*{\-Static \-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{classMhd_1_1MhdFactory}{\-Mhd\-Factory} \& \hyperlink{classMhd_1_1MhdFactory_a94346aec0e8f822e3f7934389f3ab28c}{\-Instance} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-The factory tha collects different \hyperlink{classMhd_1_1MhdOrientation}{\-Mhd\-Orientation}. 
+
+\subsection{\-Member \-Typedef \-Documentation}
+\hypertarget{classMhd_1_1MhdFactory_a6e31a057f01600271f9eab07a6684283}{\index{\-Mhd\-::\-Mhd\-Factory@{\-Mhd\-::\-Mhd\-Factory}!\-Collector@{\-Collector}}
+\index{\-Collector@{\-Collector}!Mhd::MhdFactory@{\-Mhd\-::\-Mhd\-Factory}}
+\subsubsection[{\-Collector}]{\setlength{\rightskip}{0pt plus 5cm}typedef map$<$string,{\bf \-Mhd\-Builder}$>$ {\bf \-Mhd\-::\-Mhd\-Factory\-::\-Collector}}}\label{classMhd_1_1MhdFactory_a6e31a057f01600271f9eab07a6684283}
+
+
+\-Collector of the orientations. 
+
+
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\hypertarget{classMhd_1_1MhdFactory_a80a3c72319b23cf062311e477720b04a}{\index{\-Mhd\-::\-Mhd\-Factory@{\-Mhd\-::\-Mhd\-Factory}!$\sim$\-Mhd\-Factory@{$\sim$\-Mhd\-Factory}}
+\index{$\sim$\-Mhd\-Factory@{$\sim$\-Mhd\-Factory}!Mhd::MhdFactory@{\-Mhd\-::\-Mhd\-Factory}}
+\subsubsection[{$\sim$\-Mhd\-Factory}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Mhd\-::\-Mhd\-Factory\-::$\sim$\-Mhd\-Factory} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classMhd_1_1MhdFactory_a80a3c72319b23cf062311e477720b04a}
+\hypertarget{classMhd_1_1MhdFactory_a5a744415bb4094fa157cb6b913c72c2d}{\index{\-Mhd\-::\-Mhd\-Factory@{\-Mhd\-::\-Mhd\-Factory}!\-Mhd\-Factory@{\-Mhd\-Factory}}
+\index{\-Mhd\-Factory@{\-Mhd\-Factory}!Mhd::MhdFactory@{\-Mhd\-::\-Mhd\-Factory}}
+\subsubsection[{\-Mhd\-Factory}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Mhd\-::\-Mhd\-Factory\-::\-Mhd\-Factory} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classMhd_1_1MhdFactory_a5a744415bb4094fa157cb6b913c72c2d}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{classMhd_1_1MhdFactory_a41095d4c88c3cd2a3bf8c24081b485b8}{\index{\-Mhd\-::\-Mhd\-Factory@{\-Mhd\-::\-Mhd\-Factory}!\-Get@{\-Get}}
+\index{\-Get@{\-Get}!Mhd::MhdFactory@{\-Mhd\-::\-Mhd\-Factory}}
+\subsubsection[{\-Get}]{\setlength{\rightskip}{0pt plus 5cm}unique\-\_\-ptr$<$ {\bf \-Mhd\-Orientation} $>$ {\bf \-Mhd\-::\-Mhd\-Factory\-::\-Get} (
+\begin{DoxyParamCaption}
+\item[{string const \&}]{\-Name}
+\end{DoxyParamCaption}
+) const}}\label{classMhd_1_1MhdFactory_a41095d4c88c3cd2a3bf8c24081b485b8}
+
+
+\-Get an object of the factory. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em \-Name} & \-Name of the orientation selected\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+\-The orientation with the \-Name chosen
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{\-Exceptions}
+{\em invalid\-\_\-argument} & \\
+\hline
+\end{DoxyExceptions}
+\hypertarget{classMhd_1_1MhdFactory_a94346aec0e8f822e3f7934389f3ab28c}{\index{\-Mhd\-::\-Mhd\-Factory@{\-Mhd\-::\-Mhd\-Factory}!\-Instance@{\-Instance}}
+\index{\-Instance@{\-Instance}!Mhd::MhdFactory@{\-Mhd\-::\-Mhd\-Factory}}
+\subsubsection[{\-Instance}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Mhd\-Factory} \& {\bf \-Mhd\-::\-Mhd\-Factory\-::\-Instance} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}\label{classMhd_1_1MhdFactory_a94346aec0e8f822e3f7934389f3ab28c}
+\begin{DoxyReturn}{\-Returns}
+
+\end{DoxyReturn}
+\hypertarget{classMhd_1_1MhdFactory_ae24c471f86ce728f63b9d639a5c57284}{\index{\-Mhd\-::\-Mhd\-Factory@{\-Mhd\-::\-Mhd\-Factory}!\-Register@{\-Register}}
+\index{\-Register@{\-Register}!Mhd::MhdFactory@{\-Mhd\-::\-Mhd\-Factory}}
+\subsubsection[{\-Register}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Mhd\-::\-Mhd\-Factory\-::\-Register} (
+\begin{DoxyParamCaption}
+\item[{string const \&}]{\-Name, }
+\item[{{\bf \-Mhd\-Builder} const \&}]{\-Func}
+\end{DoxyParamCaption}
+)  throw (invalid\-\_\-argument)}}\label{classMhd_1_1MhdFactory_ae24c471f86ce728f63b9d639a5c57284}
+
+
+\-Registers in the factory the orientation given. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em \-Name} & \-Name of the orientation to be registered \\
+\hline
+{\em \-Func} & \-The builder used\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{\-Exceptions}
+{\em invalid\-\_\-argument} & \\
+\hline
+\end{DoxyExceptions}
+\hypertarget{classMhd_1_1MhdFactory_a2e0a9c9984f7fea4251656bb3e401100}{\index{\-Mhd\-::\-Mhd\-Factory@{\-Mhd\-::\-Mhd\-Factory}!\-Registered@{\-Registered}}
+\index{\-Registered@{\-Registered}!Mhd::MhdFactory@{\-Mhd\-::\-Mhd\-Factory}}
+\subsubsection[{\-Registered}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ string $>$ {\bf \-Mhd\-::\-Mhd\-Factory\-::\-Registered} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classMhd_1_1MhdFactory_a2e0a9c9984f7fea4251656bb3e401100}
+
+
+\-List all the orientations contained in the factory. 
+
+\begin{DoxyReturn}{\-Returns}
+a vector$<$string$>$ containing the orientations 
+\end{DoxyReturn}
+\hypertarget{classMhd_1_1MhdFactory_ab0a2f768224b9a72680b62540fde82c2}{\index{\-Mhd\-::\-Mhd\-Factory@{\-Mhd\-::\-Mhd\-Factory}!\-Unset@{\-Unset}}
+\index{\-Unset@{\-Unset}!Mhd::MhdFactory@{\-Mhd\-::\-Mhd\-Factory}}
+\subsubsection[{\-Unset}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Mhd\-::\-Mhd\-Factory\-::\-Unset} (
+\begin{DoxyParamCaption}
+\item[{string const \&}]{\-Name}
+\end{DoxyParamCaption}
+)}}\label{classMhd_1_1MhdFactory_ab0a2f768224b9a72680b62540fde82c2}
+
+
+\-Remove the given orientation from the factory. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em \-Name} & \-Name of the orientation to be removed \\
+\hline
+\end{DoxyParams}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+lib/include/\hyperlink{MhdFactory_8hxx}{\-Mhd\-Factory.\-hxx}\item 
+lib/src/\hyperlink{MhdFactory_8cxx}{\-Mhd\-Factory.\-cxx}\end{DoxyCompactItemize}

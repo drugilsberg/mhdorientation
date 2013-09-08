@@ -1,0 +1,44 @@
+\hypertarget{classmhd_1_1MhdOrientation}{\section{mhd.\-Mhd\-Orientation \-Class \-Reference}
+\label{classmhd_1_1MhdOrientation}\index{mhd.\-Mhd\-Orientation@{mhd.\-Mhd\-Orientation}}
+}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classmhd_1_1MhdOrientation_aad64ce31339ef4be7625b19e7b867030}{def {\bfseries \-\_\-\-\_\-init\-\_\-\-\_\-}}\label{classmhd_1_1MhdOrientation_aad64ce31339ef4be7625b19e7b867030}
+
+\item 
+\hypertarget{classmhd_1_1MhdOrientation_a2b3ff73afbc453dc9ffe5f28d5e64127}{def {\bfseries \-Orientation\-Reader}}\label{classmhd_1_1MhdOrientation_a2b3ff73afbc453dc9ffe5f28d5e64127}
+
+\item 
+\hypertarget{classmhd_1_1MhdOrientation_ac0798d7eca7045356b2622b84636dfff}{def {\bfseries \-Orientation\-Writer}}\label{classmhd_1_1MhdOrientation_ac0798d7eca7045356b2622b84636dfff}
+
+\item 
+\hypertarget{classmhd_1_1MhdOrientation_adc32e0338fbf46d4cddad458e7a4d4da}{def {\bfseries \-Convert\-To\-Ras}}\label{classmhd_1_1MhdOrientation_adc32e0338fbf46d4cddad458e7a4d4da}
+
+\item 
+\hypertarget{classmhd_1_1MhdOrientation_ab7304b78e194b370db64047fa66503df}{def {\bfseries \-Compute\-Angles}}\label{classmhd_1_1MhdOrientation_ab7304b78e194b370db64047fa66503df}
+
+\item 
+\hypertarget{classmhd_1_1MhdOrientation_a8ac0da2545dcd2f76cfa6a10eba42000}{def {\bfseries \-Compute\-Rotation}}\label{classmhd_1_1MhdOrientation_a8ac0da2545dcd2f76cfa6a10eba42000}
+
+\item 
+\hypertarget{classmhd_1_1MhdOrientation_a4a7a9286e1cee416946804caf0d4b3b7}{def {\bfseries \-R}}\label{classmhd_1_1MhdOrientation_a4a7a9286e1cee416946804caf0d4b3b7}
+
+\item 
+\hypertarget{classmhd_1_1MhdOrientation_aa1a32694e08237f4ef62602dcae7787a}{def {\bfseries \-O}}\label{classmhd_1_1MhdOrientation_aa1a32694e08237f4ef62602dcae7787a}
+
+\item 
+\hypertarget{classmhd_1_1MhdOrientation_a0113c6e528358b0fe65a235b4e489b01}{def {\bfseries \-C}}\label{classmhd_1_1MhdOrientation_a0113c6e528358b0fe65a235b4e489b01}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classmhd_1_1MhdOrientation_a147972c55d37e3bcf908cabbad888127}{{\bfseries obj}}\label{classmhd_1_1MhdOrientation_a147972c55d37e3bcf908cabbad888127}
+
+\end{DoxyCompactItemize}
+
+
+\-The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/home/matteo/\-Dropbox/\-Prog\-Pacs/\-Release/\-Mhd\-Orientation/lib/pymodule/mhd.\-py\end{DoxyCompactItemize}

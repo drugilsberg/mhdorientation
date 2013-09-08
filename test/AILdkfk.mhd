@@ -1,0 +1,14 @@
+ObjectType = Image
+NDims = 3
+BinaryData = True
+BinaryDataByteOrderMSB = False
+CompressedDataSize = 0
+CompressedData = False
+TransformMatrix = -0.0451291 0.890667 -0.452411 0.40527 -0.397609 -0.823203 -0.913083 -0.220499 -0.343016 
+Offset = 125.39 74.4246 125.31 
+CenterOfRotation = 0 0 0 
+AnatomicalOrientation = RAS
+ElementSpacing = 0.498047 0.498047 1 
+DimSize = 448 512 160 
+ElementType = MET_DOUBLE
+ElementDataFile = AIL.raw

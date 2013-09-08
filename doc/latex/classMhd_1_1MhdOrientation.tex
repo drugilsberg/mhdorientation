@@ -1,0 +1,333 @@
+\hypertarget{classMhd_1_1MhdOrientation}{\section{\-Mhd\-:\-:\-Mhd\-Orientation \-Class \-Reference}
+\label{classMhd_1_1MhdOrientation}\index{\-Mhd\-::\-Mhd\-Orientation@{\-Mhd\-::\-Mhd\-Orientation}}
+}
+
+
+\-Base class that contains methods to perform the \-R\-A\-S conversion.  
+
+
+
+
+{\ttfamily \#include $<$\-Mhd\-Orientation.\-hxx$>$}
+
+\-Inheritance diagram for \-Mhd\-:\-:\-Mhd\-Orientation\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classMhd_1_1MhdOrientation}
+\end{center}
+\end{figure}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classMhd_1_1MhdOrientation_a3e5bf4259db2501f55dddb11cdf6aee5}{\-Orientation\-Reader} (char $\ast$\-Input\-File)
+\begin{DoxyCompactList}\small\item\em \-Read from a .mhd files the parameters. \end{DoxyCompactList}\item 
+void \hyperlink{classMhd_1_1MhdOrientation_afacfca17977387eb2be74f0f28dc681e}{\-Orientation\-Writer} (char $\ast$\-Output\-File)
+\begin{DoxyCompactList}\small\item\em \-Write on a file the parameters in .mhd format. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classMhd_1_1MhdOrientation_ad42f327fc9e94d827dba171773cea25f}{\-Convert\-To\-Ras} (size\-\_\-t i=1)=0
+\begin{DoxyCompactList}\small\item\em \-Virtual declaration of the method used to convert the orientation to \-R\-A\-S orientation. \end{DoxyCompactList}\item 
+virtual \hyperlink{classMhd_1_1MhdOrientation}{\-Mhd\-Orientation} $\ast$ \hyperlink{classMhd_1_1MhdOrientation_a5554337cc931090c765f41ce46c335fe}{\-Create} () const =0
+\begin{DoxyCompactList}\small\item\em \-Virtual constructor. \end{DoxyCompactList}\item 
+void \hyperlink{classMhd_1_1MhdOrientation_ad26f040a61bc26601fa29fcfd8910203}{\-Compute\-Angles} ()
+\begin{DoxyCompactList}\small\item\em \-Compute the rotation angles from the \-Transform\-Matrix. \end{DoxyCompactList}\item 
+void \hyperlink{classMhd_1_1MhdOrientation_a1163ffc15df563d621125166a442441f}{\-Compute\-Rotation} (float $\ast$angles)
+\begin{DoxyCompactList}\small\item\em \-Compute from the angle given the \-Transform\-Matrix. \end{DoxyCompactList}\item 
+float \hyperlink{classMhd_1_1MhdOrientation_aa10921828b2a4083708acf5a3d8aef51}{\-R} (size\-\_\-t i, size\-\_\-t j)
+\begin{DoxyCompactList}\small\item\em \-Returns the element (i,j) of the \-Transform\-Matrix. \end{DoxyCompactList}\item 
+float \hyperlink{classMhd_1_1MhdOrientation_ace88d015f223090979527ee691b11d9c}{\-O} (size\-\_\-t i)
+\begin{DoxyCompactList}\small\item\em \-Returns i-\/th element of \-Offset. \end{DoxyCompactList}\item 
+float \hyperlink{classMhd_1_1MhdOrientation_aa9e653cac26a97723f8848a9e55fa578}{\-C} (size\-\_\-t i)
+\begin{DoxyCompactList}\small\item\em \-Returns i-\/th element of \-Center\-Of\-Rotation. \end{DoxyCompactList}\item 
+const char $\ast$ \hyperlink{classMhd_1_1MhdOrientation_a4089d58c8a1cd24e692de3fdf603fb11}{\-A\-O} ()
+\begin{DoxyCompactList}\small\item\em \-Returns the stored \-Anatomical\-Orientaion. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Protected \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+vector$<$ float $>$ \hyperlink{classMhd_1_1MhdOrientation_aa070162e37053f01a4b2b7d51a15df05}{\-Transform\-Matrix}
+\item 
+vector$<$ float $>$ \hyperlink{classMhd_1_1MhdOrientation_a07437846f5a5cda783205a628edbcc3f}{\-Offset}
+\item 
+vector$<$ float $>$ \hyperlink{classMhd_1_1MhdOrientation_aa45e38464ed4f9300c0ee36c8c878142}{\-Center\-Of\-Rotation}
+\item 
+string \hyperlink{classMhd_1_1MhdOrientation_aa4d1901d0fbfee2d26c1d53c8d6a3d05}{\-Anatomical\-Orientation}
+\item 
+string \hyperlink{classMhd_1_1MhdOrientation_a46fe7ec6720e2e70f938d62e7f11f9f7}{\-Object\-Type}
+\item 
+size\-\_\-t \hyperlink{classMhd_1_1MhdOrientation_a78ba0dc5c42d718a8e87284488f20bee}{\-N\-Dims}
+\item 
+size\-\_\-t \hyperlink{classMhd_1_1MhdOrientation_a18d61cf0ac99da50f7826f39965a07c8}{\-Compressed\-Data\-Size}
+\item 
+string \hyperlink{classMhd_1_1MhdOrientation_ac706a5b03a026b8017bead638210e802}{\-Binary\-Data}
+\item 
+string \hyperlink{classMhd_1_1MhdOrientation_ab8cf58d0250c137bfb94698ff9f0a277}{\-Binary\-Data\-Byte\-Order\-M\-S\-B}
+\item 
+string \hyperlink{classMhd_1_1MhdOrientation_adca76072f769ef254b2c2dfddd431757}{\-Compressed\-Data}
+\item 
+vector$<$ float $>$ \hyperlink{classMhd_1_1MhdOrientation_a6a36dc309ac8b0e3d9135908b50aaac1}{\-Element\-Spacing}
+\item 
+vector$<$ size\-\_\-t $>$ \hyperlink{classMhd_1_1MhdOrientation_af457d4ec1dc3b11e1c8fa5d265f2ef45}{\-Dim\-Size}
+\item 
+string \hyperlink{classMhd_1_1MhdOrientation_a474a41869616c9b3128d53b9c244c82d}{\-Element\-Type}
+\item 
+string \hyperlink{classMhd_1_1MhdOrientation_aed4d5737448eb7455da9f64ede632efe}{\-Element\-Data\-File}
+\item 
+pair$<$ vector$<$ float $>$, vector\*
+$<$ float $>$ $>$ \hyperlink{classMhd_1_1MhdOrientation_aeb4a41e8433c3990a92a65ac2b121a1a}{\-Angles}
+\end{DoxyCompactItemize}
+\subsection*{\-Friends}
+\begin{DoxyCompactItemize}
+\item 
+ostream \& \hyperlink{classMhd_1_1MhdOrientation_accc0429e1491faeb562c6ebf8ca101d4}{operator$<$$<$} (ostream \&out, const \hyperlink{classMhd_1_1MhdOrientation}{\-Mhd\-Orientation} \&\-K)
+\begin{DoxyCompactList}\small\item\em \-Overloading of the operator $<$$<$. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-Base class that contains methods to perform the \-R\-A\-S conversion. 
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{classMhd_1_1MhdOrientation_a4089d58c8a1cd24e692de3fdf603fb11}{\index{\-Mhd\-::\-Mhd\-Orientation@{\-Mhd\-::\-Mhd\-Orientation}!\-A\-O@{\-A\-O}}
+\index{\-A\-O@{\-A\-O}!Mhd::MhdOrientation@{\-Mhd\-::\-Mhd\-Orientation}}
+\subsubsection[{\-A\-O}]{\setlength{\rightskip}{0pt plus 5cm}const char$\ast$ {\bf \-Mhd\-::\-Mhd\-Orientation\-::\-A\-O} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classMhd_1_1MhdOrientation_a4089d58c8a1cd24e692de3fdf603fb11}
+
+
+\-Returns the stored \-Anatomical\-Orientaion. 
+
+\begin{DoxyReturn}{\-Returns}
+the orientation 
+\end{DoxyReturn}
+\hypertarget{classMhd_1_1MhdOrientation_aa9e653cac26a97723f8848a9e55fa578}{\index{\-Mhd\-::\-Mhd\-Orientation@{\-Mhd\-::\-Mhd\-Orientation}!\-C@{\-C}}
+\index{\-C@{\-C}!Mhd::MhdOrientation@{\-Mhd\-::\-Mhd\-Orientation}}
+\subsubsection[{\-C}]{\setlength{\rightskip}{0pt plus 5cm}float {\bf \-Mhd\-::\-Mhd\-Orientation\-::\-C} (
+\begin{DoxyParamCaption}
+\item[{size\-\_\-t}]{i}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classMhd_1_1MhdOrientation_aa9e653cac26a97723f8848a9e55fa578}
+
+
+\-Returns i-\/th element of \-Center\-Of\-Rotation. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em i} & \-The i-\/th element of \-Center\-Of\-Rotation\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+float element of the \-Center\-Of\-Rotation 
+\end{DoxyReturn}
+\hypertarget{classMhd_1_1MhdOrientation_ad26f040a61bc26601fa29fcfd8910203}{\index{\-Mhd\-::\-Mhd\-Orientation@{\-Mhd\-::\-Mhd\-Orientation}!\-Compute\-Angles@{\-Compute\-Angles}}
+\index{\-Compute\-Angles@{\-Compute\-Angles}!Mhd::MhdOrientation@{\-Mhd\-::\-Mhd\-Orientation}}
+\subsubsection[{\-Compute\-Angles}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Mhd\-::\-Mhd\-Orientation\-::\-Compute\-Angles} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classMhd_1_1MhdOrientation_ad26f040a61bc26601fa29fcfd8910203}
+
+
+\-Compute the rotation angles from the \-Transform\-Matrix. 
+
+\hypertarget{classMhd_1_1MhdOrientation_a1163ffc15df563d621125166a442441f}{\index{\-Mhd\-::\-Mhd\-Orientation@{\-Mhd\-::\-Mhd\-Orientation}!\-Compute\-Rotation@{\-Compute\-Rotation}}
+\index{\-Compute\-Rotation@{\-Compute\-Rotation}!Mhd::MhdOrientation@{\-Mhd\-::\-Mhd\-Orientation}}
+\subsubsection[{\-Compute\-Rotation}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Mhd\-::\-Mhd\-Orientation\-::\-Compute\-Rotation} (
+\begin{DoxyParamCaption}
+\item[{float $\ast$}]{angles}
+\end{DoxyParamCaption}
+)}}\label{classMhd_1_1MhdOrientation_a1163ffc15df563d621125166a442441f}
+
+
+\-Compute from the angle given the \-Transform\-Matrix. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em angles} & \-The angle used to compute the \-Transform\-Matrix \\
+\hline
+\end{DoxyParams}
+\hypertarget{classMhd_1_1MhdOrientation_ad42f327fc9e94d827dba171773cea25f}{\index{\-Mhd\-::\-Mhd\-Orientation@{\-Mhd\-::\-Mhd\-Orientation}!\-Convert\-To\-Ras@{\-Convert\-To\-Ras}}
+\index{\-Convert\-To\-Ras@{\-Convert\-To\-Ras}!Mhd::MhdOrientation@{\-Mhd\-::\-Mhd\-Orientation}}
+\subsubsection[{\-Convert\-To\-Ras}]{\setlength{\rightskip}{0pt plus 5cm}virtual void {\bf \-Mhd\-::\-Mhd\-Orientation\-::\-Convert\-To\-Ras} (
+\begin{DoxyParamCaption}
+\item[{size\-\_\-t}]{i = {\ttfamily 1}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}\label{classMhd_1_1MhdOrientation_ad42f327fc9e94d827dba171773cea25f}
+
+
+\-Virtual declaration of the method used to convert the orientation to \-R\-A\-S orientation. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em i} & \-Select the i-\/th angle to perform the conversion \\
+\hline
+\end{DoxyParams}
+
+
+\-Implemented in \hyperlink{classMhd_1_1LSA_ada82ad64afd2ea5adcd68678e3d7f9cf}{\-Mhd\-::\-L\-S\-A}, \hyperlink{classMhd_1_1RAI_af8c1b663c43431b40431a001ec91acc1}{\-Mhd\-::\-R\-A\-I}, \hyperlink{classMhd_1_1ASL_aeea608fdcf78a9c340dfa6cd01c69a43}{\-Mhd\-::\-A\-S\-L}, and \hyperlink{classMhd_1_1AIL_af6fda476c21c720db99d399163ee5f3b}{\-Mhd\-::\-A\-I\-L}.
+
+\hypertarget{classMhd_1_1MhdOrientation_a5554337cc931090c765f41ce46c335fe}{\index{\-Mhd\-::\-Mhd\-Orientation@{\-Mhd\-::\-Mhd\-Orientation}!\-Create@{\-Create}}
+\index{\-Create@{\-Create}!Mhd::MhdOrientation@{\-Mhd\-::\-Mhd\-Orientation}}
+\subsubsection[{\-Create}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf \-Mhd\-Orientation}$\ast$ {\bf \-Mhd\-::\-Mhd\-Orientation\-::\-Create} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}\label{classMhd_1_1MhdOrientation_a5554337cc931090c765f41ce46c335fe}
+
+
+\-Virtual constructor. 
+
+
+
+\-Implemented in \hyperlink{classMhd_1_1LSA_a0c789e1d0d5af09af4ed25f9524e4587}{\-Mhd\-::\-L\-S\-A}, \hyperlink{classMhd_1_1RAI_aecb336828d73b837393091a98ba3f2dd}{\-Mhd\-::\-R\-A\-I}, \hyperlink{classMhd_1_1ASL_a3d07144eaf5369a16c7ece3d43a80a0b}{\-Mhd\-::\-A\-S\-L}, and \hyperlink{classMhd_1_1AIL_a5024cf0a7ac9b469436a070db45642be}{\-Mhd\-::\-A\-I\-L}.
+
+\hypertarget{classMhd_1_1MhdOrientation_ace88d015f223090979527ee691b11d9c}{\index{\-Mhd\-::\-Mhd\-Orientation@{\-Mhd\-::\-Mhd\-Orientation}!\-O@{\-O}}
+\index{\-O@{\-O}!Mhd::MhdOrientation@{\-Mhd\-::\-Mhd\-Orientation}}
+\subsubsection[{\-O}]{\setlength{\rightskip}{0pt plus 5cm}float {\bf \-Mhd\-::\-Mhd\-Orientation\-::\-O} (
+\begin{DoxyParamCaption}
+\item[{size\-\_\-t}]{i}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classMhd_1_1MhdOrientation_ace88d015f223090979527ee691b11d9c}
+
+
+\-Returns i-\/th element of \-Offset. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em i} & \-The i-\/th element of \-Offset\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+float element of the \-Offset 
+\end{DoxyReturn}
+\hypertarget{classMhd_1_1MhdOrientation_a3e5bf4259db2501f55dddb11cdf6aee5}{\index{\-Mhd\-::\-Mhd\-Orientation@{\-Mhd\-::\-Mhd\-Orientation}!\-Orientation\-Reader@{\-Orientation\-Reader}}
+\index{\-Orientation\-Reader@{\-Orientation\-Reader}!Mhd::MhdOrientation@{\-Mhd\-::\-Mhd\-Orientation}}
+\subsubsection[{\-Orientation\-Reader}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Mhd\-::\-Mhd\-Orientation\-::\-Orientation\-Reader} (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{\-Input\-File}
+\end{DoxyParamCaption}
+)}}\label{classMhd_1_1MhdOrientation_a3e5bf4259db2501f55dddb11cdf6aee5}
+
+
+\-Read from a .mhd files the parameters. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em \-Input\-File} & \-Input .mhd file \\
+\hline
+\end{DoxyParams}
+\hypertarget{classMhd_1_1MhdOrientation_afacfca17977387eb2be74f0f28dc681e}{\index{\-Mhd\-::\-Mhd\-Orientation@{\-Mhd\-::\-Mhd\-Orientation}!\-Orientation\-Writer@{\-Orientation\-Writer}}
+\index{\-Orientation\-Writer@{\-Orientation\-Writer}!Mhd::MhdOrientation@{\-Mhd\-::\-Mhd\-Orientation}}
+\subsubsection[{\-Orientation\-Writer}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Mhd\-::\-Mhd\-Orientation\-::\-Orientation\-Writer} (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{\-Output\-File}
+\end{DoxyParamCaption}
+)}}\label{classMhd_1_1MhdOrientation_afacfca17977387eb2be74f0f28dc681e}
+
+
+\-Write on a file the parameters in .mhd format. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em \-Output\-File} & \-Output .mhd file \\
+\hline
+\end{DoxyParams}
+\hypertarget{classMhd_1_1MhdOrientation_aa10921828b2a4083708acf5a3d8aef51}{\index{\-Mhd\-::\-Mhd\-Orientation@{\-Mhd\-::\-Mhd\-Orientation}!\-R@{\-R}}
+\index{\-R@{\-R}!Mhd::MhdOrientation@{\-Mhd\-::\-Mhd\-Orientation}}
+\subsubsection[{\-R}]{\setlength{\rightskip}{0pt plus 5cm}float {\bf \-Mhd\-::\-Mhd\-Orientation\-::\-R} (
+\begin{DoxyParamCaption}
+\item[{size\-\_\-t}]{i, }
+\item[{size\-\_\-t}]{j}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classMhd_1_1MhdOrientation_aa10921828b2a4083708acf5a3d8aef51}
+
+
+\-Returns the element (i,j) of the \-Transform\-Matrix. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em i} & \-Row index of the \-Transform\-Matrix \\
+\hline
+{\em j} & \-Column index of the \-Transform\-Matrix\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+float element of the \-Transform\-Matrix 
+\end{DoxyReturn}
+
+
+\subsection{\-Friends \-And \-Related \-Function \-Documentation}
+\hypertarget{classMhd_1_1MhdOrientation_accc0429e1491faeb562c6ebf8ca101d4}{\index{\-Mhd\-::\-Mhd\-Orientation@{\-Mhd\-::\-Mhd\-Orientation}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Mhd::MhdOrientation@{\-Mhd\-::\-Mhd\-Orientation}}
+\subsubsection[{operator$<$$<$}]{\setlength{\rightskip}{0pt plus 5cm}ostream\& operator$<$$<$ (
+\begin{DoxyParamCaption}
+\item[{ostream \&}]{out, }
+\item[{const {\bf \-Mhd\-Orientation} \&}]{\-K}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}friend\mbox{]}}}}\label{classMhd_1_1MhdOrientation_accc0429e1491faeb562c6ebf8ca101d4}
+
+
+\-Overloading of the operator $<$$<$. 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em out} & \-Ostream for .mhd file writing \\
+\hline
+{\em \-K} & \-The object used to write the .mhd file\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+ofstream to write the object 
+\end{DoxyReturn}
+
+
+\subsection{\-Member \-Data \-Documentation}
+\hypertarget{classMhd_1_1MhdOrientation_aa4d1901d0fbfee2d26c1d53c8d6a3d05}{\index{\-Mhd\-::\-Mhd\-Orientation@{\-Mhd\-::\-Mhd\-Orientation}!\-Anatomical\-Orientation@{\-Anatomical\-Orientation}}
+\index{\-Anatomical\-Orientation@{\-Anatomical\-Orientation}!Mhd::MhdOrientation@{\-Mhd\-::\-Mhd\-Orientation}}
+\subsubsection[{\-Anatomical\-Orientation}]{\setlength{\rightskip}{0pt plus 5cm}string {\bf \-Mhd\-::\-Mhd\-Orientation\-::\-Anatomical\-Orientation}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}\label{classMhd_1_1MhdOrientation_aa4d1901d0fbfee2d26c1d53c8d6a3d05}
+\hypertarget{classMhd_1_1MhdOrientation_aeb4a41e8433c3990a92a65ac2b121a1a}{\index{\-Mhd\-::\-Mhd\-Orientation@{\-Mhd\-::\-Mhd\-Orientation}!\-Angles@{\-Angles}}
+\index{\-Angles@{\-Angles}!Mhd::MhdOrientation@{\-Mhd\-::\-Mhd\-Orientation}}
+\subsubsection[{\-Angles}]{\setlength{\rightskip}{0pt plus 5cm}pair$<$ vector$<$float$>$, vector$<$float$>$ $>$ {\bf \-Mhd\-::\-Mhd\-Orientation\-::\-Angles}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}\label{classMhd_1_1MhdOrientation_aeb4a41e8433c3990a92a65ac2b121a1a}
+\hypertarget{classMhd_1_1MhdOrientation_ac706a5b03a026b8017bead638210e802}{\index{\-Mhd\-::\-Mhd\-Orientation@{\-Mhd\-::\-Mhd\-Orientation}!\-Binary\-Data@{\-Binary\-Data}}
+\index{\-Binary\-Data@{\-Binary\-Data}!Mhd::MhdOrientation@{\-Mhd\-::\-Mhd\-Orientation}}
+\subsubsection[{\-Binary\-Data}]{\setlength{\rightskip}{0pt plus 5cm}string {\bf \-Mhd\-::\-Mhd\-Orientation\-::\-Binary\-Data}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}\label{classMhd_1_1MhdOrientation_ac706a5b03a026b8017bead638210e802}
+\hypertarget{classMhd_1_1MhdOrientation_ab8cf58d0250c137bfb94698ff9f0a277}{\index{\-Mhd\-::\-Mhd\-Orientation@{\-Mhd\-::\-Mhd\-Orientation}!\-Binary\-Data\-Byte\-Order\-M\-S\-B@{\-Binary\-Data\-Byte\-Order\-M\-S\-B}}
+\index{\-Binary\-Data\-Byte\-Order\-M\-S\-B@{\-Binary\-Data\-Byte\-Order\-M\-S\-B}!Mhd::MhdOrientation@{\-Mhd\-::\-Mhd\-Orientation}}
+\subsubsection[{\-Binary\-Data\-Byte\-Order\-M\-S\-B}]{\setlength{\rightskip}{0pt plus 5cm}string {\bf \-Mhd\-::\-Mhd\-Orientation\-::\-Binary\-Data\-Byte\-Order\-M\-S\-B}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}\label{classMhd_1_1MhdOrientation_ab8cf58d0250c137bfb94698ff9f0a277}
+\hypertarget{classMhd_1_1MhdOrientation_aa45e38464ed4f9300c0ee36c8c878142}{\index{\-Mhd\-::\-Mhd\-Orientation@{\-Mhd\-::\-Mhd\-Orientation}!\-Center\-Of\-Rotation@{\-Center\-Of\-Rotation}}
+\index{\-Center\-Of\-Rotation@{\-Center\-Of\-Rotation}!Mhd::MhdOrientation@{\-Mhd\-::\-Mhd\-Orientation}}
+\subsubsection[{\-Center\-Of\-Rotation}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$float$>$ {\bf \-Mhd\-::\-Mhd\-Orientation\-::\-Center\-Of\-Rotation}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}\label{classMhd_1_1MhdOrientation_aa45e38464ed4f9300c0ee36c8c878142}
+\hypertarget{classMhd_1_1MhdOrientation_adca76072f769ef254b2c2dfddd431757}{\index{\-Mhd\-::\-Mhd\-Orientation@{\-Mhd\-::\-Mhd\-Orientation}!\-Compressed\-Data@{\-Compressed\-Data}}
+\index{\-Compressed\-Data@{\-Compressed\-Data}!Mhd::MhdOrientation@{\-Mhd\-::\-Mhd\-Orientation}}
+\subsubsection[{\-Compressed\-Data}]{\setlength{\rightskip}{0pt plus 5cm}string {\bf \-Mhd\-::\-Mhd\-Orientation\-::\-Compressed\-Data}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}\label{classMhd_1_1MhdOrientation_adca76072f769ef254b2c2dfddd431757}
+\hypertarget{classMhd_1_1MhdOrientation_a18d61cf0ac99da50f7826f39965a07c8}{\index{\-Mhd\-::\-Mhd\-Orientation@{\-Mhd\-::\-Mhd\-Orientation}!\-Compressed\-Data\-Size@{\-Compressed\-Data\-Size}}
+\index{\-Compressed\-Data\-Size@{\-Compressed\-Data\-Size}!Mhd::MhdOrientation@{\-Mhd\-::\-Mhd\-Orientation}}
+\subsubsection[{\-Compressed\-Data\-Size}]{\setlength{\rightskip}{0pt plus 5cm}size\-\_\-t {\bf \-Mhd\-::\-Mhd\-Orientation\-::\-Compressed\-Data\-Size}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}\label{classMhd_1_1MhdOrientation_a18d61cf0ac99da50f7826f39965a07c8}
+\hypertarget{classMhd_1_1MhdOrientation_af457d4ec1dc3b11e1c8fa5d265f2ef45}{\index{\-Mhd\-::\-Mhd\-Orientation@{\-Mhd\-::\-Mhd\-Orientation}!\-Dim\-Size@{\-Dim\-Size}}
+\index{\-Dim\-Size@{\-Dim\-Size}!Mhd::MhdOrientation@{\-Mhd\-::\-Mhd\-Orientation}}
+\subsubsection[{\-Dim\-Size}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$size\-\_\-t$>$ {\bf \-Mhd\-::\-Mhd\-Orientation\-::\-Dim\-Size}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}\label{classMhd_1_1MhdOrientation_af457d4ec1dc3b11e1c8fa5d265f2ef45}
+\hypertarget{classMhd_1_1MhdOrientation_aed4d5737448eb7455da9f64ede632efe}{\index{\-Mhd\-::\-Mhd\-Orientation@{\-Mhd\-::\-Mhd\-Orientation}!\-Element\-Data\-File@{\-Element\-Data\-File}}
+\index{\-Element\-Data\-File@{\-Element\-Data\-File}!Mhd::MhdOrientation@{\-Mhd\-::\-Mhd\-Orientation}}
+\subsubsection[{\-Element\-Data\-File}]{\setlength{\rightskip}{0pt plus 5cm}string {\bf \-Mhd\-::\-Mhd\-Orientation\-::\-Element\-Data\-File}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}\label{classMhd_1_1MhdOrientation_aed4d5737448eb7455da9f64ede632efe}
+\hypertarget{classMhd_1_1MhdOrientation_a6a36dc309ac8b0e3d9135908b50aaac1}{\index{\-Mhd\-::\-Mhd\-Orientation@{\-Mhd\-::\-Mhd\-Orientation}!\-Element\-Spacing@{\-Element\-Spacing}}
+\index{\-Element\-Spacing@{\-Element\-Spacing}!Mhd::MhdOrientation@{\-Mhd\-::\-Mhd\-Orientation}}
+\subsubsection[{\-Element\-Spacing}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$float$>$ {\bf \-Mhd\-::\-Mhd\-Orientation\-::\-Element\-Spacing}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}\label{classMhd_1_1MhdOrientation_a6a36dc309ac8b0e3d9135908b50aaac1}
+\hypertarget{classMhd_1_1MhdOrientation_a474a41869616c9b3128d53b9c244c82d}{\index{\-Mhd\-::\-Mhd\-Orientation@{\-Mhd\-::\-Mhd\-Orientation}!\-Element\-Type@{\-Element\-Type}}
+\index{\-Element\-Type@{\-Element\-Type}!Mhd::MhdOrientation@{\-Mhd\-::\-Mhd\-Orientation}}
+\subsubsection[{\-Element\-Type}]{\setlength{\rightskip}{0pt plus 5cm}string {\bf \-Mhd\-::\-Mhd\-Orientation\-::\-Element\-Type}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}\label{classMhd_1_1MhdOrientation_a474a41869616c9b3128d53b9c244c82d}
+\hypertarget{classMhd_1_1MhdOrientation_a78ba0dc5c42d718a8e87284488f20bee}{\index{\-Mhd\-::\-Mhd\-Orientation@{\-Mhd\-::\-Mhd\-Orientation}!\-N\-Dims@{\-N\-Dims}}
+\index{\-N\-Dims@{\-N\-Dims}!Mhd::MhdOrientation@{\-Mhd\-::\-Mhd\-Orientation}}
+\subsubsection[{\-N\-Dims}]{\setlength{\rightskip}{0pt plus 5cm}size\-\_\-t {\bf \-Mhd\-::\-Mhd\-Orientation\-::\-N\-Dims}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}\label{classMhd_1_1MhdOrientation_a78ba0dc5c42d718a8e87284488f20bee}
+\hypertarget{classMhd_1_1MhdOrientation_a46fe7ec6720e2e70f938d62e7f11f9f7}{\index{\-Mhd\-::\-Mhd\-Orientation@{\-Mhd\-::\-Mhd\-Orientation}!\-Object\-Type@{\-Object\-Type}}
+\index{\-Object\-Type@{\-Object\-Type}!Mhd::MhdOrientation@{\-Mhd\-::\-Mhd\-Orientation}}
+\subsubsection[{\-Object\-Type}]{\setlength{\rightskip}{0pt plus 5cm}string {\bf \-Mhd\-::\-Mhd\-Orientation\-::\-Object\-Type}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}\label{classMhd_1_1MhdOrientation_a46fe7ec6720e2e70f938d62e7f11f9f7}
+\hypertarget{classMhd_1_1MhdOrientation_a07437846f5a5cda783205a628edbcc3f}{\index{\-Mhd\-::\-Mhd\-Orientation@{\-Mhd\-::\-Mhd\-Orientation}!\-Offset@{\-Offset}}
+\index{\-Offset@{\-Offset}!Mhd::MhdOrientation@{\-Mhd\-::\-Mhd\-Orientation}}
+\subsubsection[{\-Offset}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$float$>$ {\bf \-Mhd\-::\-Mhd\-Orientation\-::\-Offset}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}\label{classMhd_1_1MhdOrientation_a07437846f5a5cda783205a628edbcc3f}
+\hypertarget{classMhd_1_1MhdOrientation_aa070162e37053f01a4b2b7d51a15df05}{\index{\-Mhd\-::\-Mhd\-Orientation@{\-Mhd\-::\-Mhd\-Orientation}!\-Transform\-Matrix@{\-Transform\-Matrix}}
+\index{\-Transform\-Matrix@{\-Transform\-Matrix}!Mhd::MhdOrientation@{\-Mhd\-::\-Mhd\-Orientation}}
+\subsubsection[{\-Transform\-Matrix}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$float$>$ {\bf \-Mhd\-::\-Mhd\-Orientation\-::\-Transform\-Matrix}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}\label{classMhd_1_1MhdOrientation_aa070162e37053f01a4b2b7d51a15df05}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+lib/include/\hyperlink{MhdOrientation_8hxx}{\-Mhd\-Orientation.\-hxx}\item 
+lib/src/\hyperlink{MhdOrientation_8cxx}{\-Mhd\-Orientation.\-cxx}\end{DoxyCompactItemize}
