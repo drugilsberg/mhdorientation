@@ -1,0 +1,6 @@
+To compile the library and its python interface simply, type:
+make dynamiclib
+To compile the tests, type:
+make test
+To compile both, type:
+make all

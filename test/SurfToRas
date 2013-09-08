@@ -1,0 +1,3 @@
+#!/bin/bash
+
+vmtkimagereader -ifile $1 --pipe vmtksurfacetransformtoras -ifile $2 -matrix @vmtkimagereader.xyztorasmatrix -ofile $3

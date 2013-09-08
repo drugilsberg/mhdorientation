@@ -1,0 +1,14 @@
+ObjectType = Image
+NDims = 3
+BinaryData = True
+BinaryDataByteOrderMSB = False
+CompressedData = True
+CompressedDataSize = 774735
+TransformMatrix = 0.0930996 0.983857 0.15283 0.0598466 0.147689 -0.987221 -0.993857 0.101056 -0.0451307
+Offset = 59.1935 -162.897 125.859
+CenterOfRotation = 0 0 0
+AnatomicalOrientation = ASL
+ElementSpacing = 0.498047 0.498047 1
+DimSize = 448 512 160
+ElementType = MET_USHORT
+ElementDataFile = ASL.zraw

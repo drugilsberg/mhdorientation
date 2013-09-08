@@ -1,0 +1,16 @@
+Two images are given AIL.mhd and ASL.mhd, to convert them use Test or
+the python script Test.py
+To run Test:
+./Test inputfile.mhd outputfile.mhd optionalangleselection
+To run python version Test.py:
+python Test.py
+
+The script SurfaceExtraction and  SurfToRas
+calls two vmtk commands that extract a .vtp surface from a .mhd at
+a fixed isosurface, and then move the vtp surface on the metaimage
+used for extraction.
+SurfExtraction inputimage.mhd(RAS oriented!!) isosurface(int) outfile.vtp
+SurfToRas inputimage.mhd(first argument of SurfExtraction) inputfile.vtp(output of SurfExtraction) outfile_RAS.vtp
+
+Using Slicer3D is possible to observe the allignment of the converted .mhd and the surface transformed in RAS space.
+The screenshot in .png files illustrate the results of the extraction and transformation post conversion.

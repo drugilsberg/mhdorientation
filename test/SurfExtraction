@@ -1,0 +1,3 @@
+#!/bin/bash
+
+vmtkmarchingcubes -ifile $1 -l $2 -ofile $3
