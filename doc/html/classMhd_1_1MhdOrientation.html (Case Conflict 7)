@@ -30,7 +30,7 @@
    <div id="projectname">MhdOrientation
    
    </div>
-   <div id="projectbrief">Orienter for .mhd files</div>
+   
   </td>
   
   
@@ -465,7 +465,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/matteo/Dropbox/ProgPacs/Release/MhdOrientation/lib/pymodule/<a class="el" href="mhd_8py.html">mhd.py</a></li>
+<li>lib/pymodule/<a class="el" href="mhd_8py.html">mhd.py</a></li>
 </ul>
 </div><!-- contents -->
 <!-- window showing the filter options -->
@@ -485,7 +485,7 @@ Public Attributes</h2></td></tr>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Sep 8 2013 20:52:33 for MhdOrientation by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Sep 8 2013 23:34:47 for MhdOrientation by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>

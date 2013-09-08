@@ -93,11 +93,6 @@ def \hyperlink{classmhd_1_1MhdOrientation_a30936df906cee1edfd0f6081019b1e18}{\-A
 
 \-Mhd\-Python\-Orientation\-::\-Compute\-Angles in \-Python. 
 
-
-\begin{DoxyParams}{\-Parameters}
-{\em \-Input\-File} & \\
-\hline
-\end{DoxyParams}
 \hypertarget{classmhd_1_1MhdOrientation_a8ac0da2545dcd2f76cfa6a10eba42000}{\index{mhd\-::\-Mhd\-Orientation@{mhd\-::\-Mhd\-Orientation}!\-Compute\-Rotation@{\-Compute\-Rotation}}
 \index{\-Compute\-Rotation@{\-Compute\-Rotation}!mhd::MhdOrientation@{mhd\-::\-Mhd\-Orientation}}
 \subsubsection[{\-Compute\-Rotation}]{\setlength{\rightskip}{0pt plus 5cm}def {\bf mhd.\-Mhd\-Orientation.\-Compute\-Rotation} (
@@ -213,4 +208,4 @@ def \hyperlink{classmhd_1_1MhdOrientation_a30936df906cee1edfd0f6081019b1e18}{\-A
 
 \-The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
 \item 
-/home/matteo/\-Dropbox/\-Prog\-Pacs/\-Release/\-Mhd\-Orientation/lib/pymodule/\hyperlink{mhd_8py}{mhd.\-py}\end{DoxyCompactItemize}
+lib/pymodule/\hyperlink{mhd_8py}{mhd.\-py}\end{DoxyCompactItemize}

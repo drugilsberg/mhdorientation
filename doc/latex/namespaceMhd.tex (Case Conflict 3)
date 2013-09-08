@@ -5,7 +5,7 @@
 \begin{DoxyCompactItemize}
 \item 
 class \hyperlink{classmhd_1_1MhdOrientation}{\-Mhd\-Orientation}
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em \-Class \hyperlink{classmhd_1_1MhdOrientation}{\-Mhd\-Orientation} imported in \-Python. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{\-Variables}
 \begin{DoxyCompactItemize}
 \item 

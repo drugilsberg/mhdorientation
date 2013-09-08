@@ -30,7 +30,7 @@
    <div id="projectname">MhdOrientation
    
    </div>
-   <div id="projectbrief">Orienter for .mhd files</div>
+   
   </td>
   
   
@@ -47,6 +47,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -72,11 +73,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
       <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
   <div id="nav-path" class="navpath">
     <ul>
-      <li class="navelem"><b>mhd</b>      </li>
+      <li class="navelem"><a class="el" href="namespacemhd.html">mhd</a>      </li>
       <li class="navelem"><a class="el" href="classmhd_1_1MhdOrientation.html">MhdOrientation</a>      </li>
     </ul>
   </div>
@@ -87,23 +89,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 This is the complete list of members for <a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a>, including all inherited members.<table>
-  <tr bgcolor="#f0f0f0"><td><b>__init__</b> (defined in <a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a>)</td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
-  <tr bgcolor="#f0f0f0"><td><b>C</b> (defined in <a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a>)</td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
-  <tr bgcolor="#f0f0f0"><td><b>ComputeAngles</b> (defined in <a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a>)</td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
-  <tr bgcolor="#f0f0f0"><td><b>ComputeRotation</b> (defined in <a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a>)</td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
-  <tr bgcolor="#f0f0f0"><td><b>ConvertToRas</b> (defined in <a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a>)</td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
-  <tr bgcolor="#f0f0f0"><td><b>O</b> (defined in <a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a>)</td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
-  <tr bgcolor="#f0f0f0"><td><b>obj</b> (defined in <a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a>)</td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
-  <tr bgcolor="#f0f0f0"><td><b>OrientationReader</b> (defined in <a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a>)</td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
-  <tr bgcolor="#f0f0f0"><td><b>OrientationWriter</b> (defined in <a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a>)</td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
-  <tr bgcolor="#f0f0f0"><td><b>R</b> (defined in <a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a>)</td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmhd_1_1MhdOrientation.html#aad64ce31339ef4be7625b19e7b867030">__init__</a></td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmhd_1_1MhdOrientation.html#a30936df906cee1edfd0f6081019b1e18">AO</a></td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmhd_1_1MhdOrientation.html#a0113c6e528358b0fe65a235b4e489b01">C</a></td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmhd_1_1MhdOrientation.html#ab7304b78e194b370db64047fa66503df">ComputeAngles</a></td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmhd_1_1MhdOrientation.html#a8ac0da2545dcd2f76cfa6a10eba42000">ComputeRotation</a></td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmhd_1_1MhdOrientation.html#adc32e0338fbf46d4cddad458e7a4d4da">ConvertToRas</a></td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmhd_1_1MhdOrientation.html#aa1a32694e08237f4ef62602dcae7787a">O</a></td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmhd_1_1MhdOrientation.html#a147972c55d37e3bcf908cabbad888127">obj</a></td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmhd_1_1MhdOrientation.html#a2b3ff73afbc453dc9ffe5f28d5e64127">OrientationReader</a></td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmhd_1_1MhdOrientation.html#ac0798d7eca7045356b2622b84636dfff">OrientationWriter</a></td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmhd_1_1MhdOrientation.html#a4a7a9286e1cee416946804caf0d4b3b7">R</a></td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
 </table></div><!-- contents -->
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Defines</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -115,7 +118,7 @@ This is the complete list of members for <a class="el" href="classmhd_1_1MhdOrie
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Sep 8 2013 18:12:40 for MhdOrientation by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Sep 8 2013 22:50:30 for MhdOrientation by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>

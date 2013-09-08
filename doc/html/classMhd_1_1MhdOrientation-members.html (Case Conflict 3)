@@ -30,7 +30,7 @@
    <div id="projectname">MhdOrientation
    
    </div>
-   <div id="projectbrief">Orienter for .mhd files</div>
+   
   </td>
   
   
@@ -90,6 +90,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="contents">
 This is the complete list of members for <a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a>, including all inherited members.<table>
   <tr class="memlist"><td><a class="el" href="classmhd_1_1MhdOrientation.html#aad64ce31339ef4be7625b19e7b867030">__init__</a></td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmhd_1_1MhdOrientation.html#a30936df906cee1edfd0f6081019b1e18">AO</a></td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classmhd_1_1MhdOrientation.html#a0113c6e528358b0fe65a235b4e489b01">C</a></td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classmhd_1_1MhdOrientation.html#ab7304b78e194b370db64047fa66503df">ComputeAngles</a></td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classmhd_1_1MhdOrientation.html#a8ac0da2545dcd2f76cfa6a10eba42000">ComputeRotation</a></td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
@@ -117,7 +118,7 @@ This is the complete list of members for <a class="el" href="classmhd_1_1MhdOrie
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Sep 8 2013 18:52:03 for MhdOrientation by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Sep 8 2013 22:59:06 for MhdOrientation by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>

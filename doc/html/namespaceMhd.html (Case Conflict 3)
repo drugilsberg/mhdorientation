@@ -30,7 +30,7 @@
    <div id="projectname">MhdOrientation
    
    </div>
-   <div id="projectbrief">Orienter for .mhd files</div>
+   
   </td>
   
   
@@ -87,6 +87,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <tr><td colspan="2"><h2><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmhd_1_1MhdOrientation.html">MhdOrientation</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Class <a class="el" href="classmhd_1_1MhdOrientation.html" title="Class MhdOrientation imported in Python.">MhdOrientation</a> imported in Python.  <a href="classmhd_1_1MhdOrientation.html#details">More...</a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">tuple&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemhd.html#a73fc547c087608ec30989f0bbc3e2a19">lib</a> = ctypes.CDLL('./libMhdOrientation.so',mode=ctypes.RTLD_GLOBAL)</td></tr>
@@ -123,7 +124,7 @@ Variables</h2></td></tr>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Sep 8 2013 19:45:44 for MhdOrientation by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Sep 8 2013 22:59:06 for MhdOrientation by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>
