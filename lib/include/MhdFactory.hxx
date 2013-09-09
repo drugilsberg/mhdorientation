@@ -91,10 +91,10 @@ namespace Mhd
        */
       void Unset(string const & Name); 
       ~MhdFactory();
-      MhdFactory();
 
     private:
 
+      MhdFactory();
       MhdFactory(const MhdFactory &); 
       MhdFactory & operator =(const MhdFactory &); 
       /**
