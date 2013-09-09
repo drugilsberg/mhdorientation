@@ -88,11 +88,11 @@ namespace Mhd{
       virtual MhdOrientation *  Create() const;
   };
 
-  class LSA : public MhdOrientation{
+  class LAS : public MhdOrientation{
 
     public:
-      LSA();
-      ~LSA();
+      LAS();
+      ~LAS();
       /**
        * @brief Perform orientation to RAS
        *

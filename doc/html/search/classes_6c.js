@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['lsa',['LSA',['../classMhd_1_1LSA.html',1,'Mhd']]]
+  ['las',['LAS',['../classMhd_1_1LAS.html',1,'Mhd']]]
 ];

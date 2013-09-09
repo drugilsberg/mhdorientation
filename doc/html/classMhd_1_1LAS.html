@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>MhdOrientation: Mhd::MhdProxy&lt; T &gt; Class Template Reference</title>
+<title>MhdOrientation: Mhd::LAS Class Reference</title>
 
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
@@ -93,86 +93,66 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="nav-path" class="navpath">
     <ul>
       <li class="navelem"><a class="el" href="namespaceMhd.html">Mhd</a>      </li>
-      <li class="navelem"><a class="el" href="classMhd_1_1MhdProxy.html">MhdProxy</a>      </li>
+      <li class="navelem"><a class="el" href="classMhd_1_1LAS.html">LAS</a>      </li>
     </ul>
   </div>
 </div>
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a>  </div>
+<a href="#pub-methods">Public Member Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Mhd::MhdProxy&lt; T &gt; Class Template Reference</div>  </div>
+<div class="title">Mhd::LAS Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<!-- doxytag: class="Mhd::MhdProxy" -->
-<p>A proxy used to build an object <a class="el" href="classMhd_1_1MhdOrientation.html" title="Base class that contains methods to perform the RAS conversion.">MhdOrientation</a> and to register it in the factory.  
- <a href="classMhd_1_1MhdProxy.html#details">More...</a></p>
+<!-- doxytag: class="Mhd::LAS" --><!-- doxytag: inherits="Mhd::MhdOrientation" -->
+<p><code>#include &lt;<a class="el" href="MhdOrientationRules_8hxx_source.html">MhdOrientationRules.hxx</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for Mhd::LAS:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classMhd_1_1LAS.png" usemap="#Mhd::LAS_map" alt=""/>
+  <map id="Mhd::LAS_map" name="Mhd::LAS_map">
+<area href="classMhd_1_1MhdOrientation.html" title="Base class that contains methods to perform the RAS conversion." alt="Mhd::MhdOrientation" shape="rect" coords="0,0,130,24"/>
+</map>
+ </div></div>
 
-<p><code>#include &lt;<a class="el" href="MhdProxy_8hxx_source.html">MhdProxy.hxx</a>&gt;</code></p>
-
-<p><a href="classMhd_1_1MhdProxy-members.html">List of all members.</a></p>
+<p><a href="classMhd_1_1LAS-members.html">List of all members.</a></p>
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMhd_1_1MhdProxy.html#a593d864056c0c48527b5442cc1d041dc">MhdProxy</a> (char const *const &amp;Name)</td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of the <a class="el" href="classMhd_1_1MhdProxy.html" title="A proxy used to build an object MhdOrientation and to register it in the factory.">MhdProxy</a> that perform the ragistration of the <a class="el" href="classMhd_1_1MhdOrientation.html" title="Base class that contains methods to perform the RAS conversion.">MhdOrientation</a> in the class.  <a href="#a593d864056c0c48527b5442cc1d041dc"></a><br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMhd_1_1MhdProxy.html#a0d0a220bae333baae25e2d7431005710">~MhdProxy</a> ()</td></tr>
-<tr><td colspan="2"><h2><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">static unique_ptr&lt; <a class="el" href="classMhd_1_1MhdOrientation.html">MhdOrientation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMhd_1_1MhdProxy.html#a7ae07a705a897fd4e00e1fb474282593">Build</a> ()</td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The builder of the object.  <a href="#a7ae07a705a897fd4e00e1fb474282593"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMhd_1_1LAS.html#adb0ce802ddc32f751b84c0df795f25d8">LAS</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMhd_1_1LAS.html#ad48ced5d6256eb9f9aaea52831446eff">~LAS</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMhd_1_1LAS.html#a4f13f477cd458018b3953ba1f35362d8">ConvertToRas</a> (size_t i=1)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform orientation to RAS.  <a href="#a4f13f477cd458018b3953ba1f35362d8"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classMhd_1_1MhdOrientation.html">MhdOrientation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMhd_1_1LAS.html#a6c26a5b3acadce4f71fd91e64fb1406b">Create</a> () const </td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Construction of the object returning a pointer to the base class.  <a href="#a6c26a5b3acadce4f71fd91e64fb1406b"></a><br/></td></tr>
 </table>
-<hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename T&gt;<br/>
-class Mhd::MhdProxy&lt; T &gt;</h3>
-
-<p>A proxy used to build an object <a class="el" href="classMhd_1_1MhdOrientation.html" title="Base class that contains methods to perform the RAS conversion.">MhdOrientation</a> and to register it in the factory. </p>
-<dl class=""><dt><b>Template Parameters:</b></dt><dd>
-  <table class="">
-    <tr><td class="paramname">T</td><td>The string indicating thr orientation rule to be build and to be registered </td></tr>
-  </table>
-  </dd>
-</dl>
-</div><hr/><h2>Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a593d864056c0c48527b5442cc1d041dc"></a><!-- doxytag: member="Mhd::MhdProxy::MhdProxy" ref="a593d864056c0c48527b5442cc1d041dc" args="(char const *const &amp;Name)" -->
+<hr/><h2>Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="adb0ce802ddc32f751b84c0df795f25d8"></a><!-- doxytag: member="Mhd::LAS::LAS" ref="adb0ce802ddc32f751b84c0df795f25d8" args="()" -->
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMhd_1_1MhdProxy.html">Mhd::MhdProxy</a>&lt; T &gt;::<a class="el" href="classMhd_1_1MhdProxy.html">MhdProxy</a> </td>
+          <td class="memname"><a class="el" href="classMhd_1_1LAS.html#adb0ce802ddc32f751b84c0df795f25d8">Mhd::LAS::LAS</a> </td>
           <td>(</td>
-          <td class="paramtype">char const *const &amp;&#160;</td>
-          <td class="paramname"><em>Name</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
 
-<p>Constructor of the <a class="el" href="classMhd_1_1MhdProxy.html" title="A proxy used to build an object MhdOrientation and to register it in the factory.">MhdProxy</a> that perform the ragistration of the <a class="el" href="classMhd_1_1MhdOrientation.html" title="Base class that contains methods to perform the RAS conversion.">MhdOrientation</a> in the class. </p>
-<dl class="params"><dt><b>Parameters:</b></dt><dd>
-  <table class="params">
-    <tr><td class="paramname">Name</td><td>String containing the name of the orientation to be registered </td></tr>
-  </table>
-  </dd>
-</dl>
-
 </div>
 </div>
-<a class="anchor" id="a0d0a220bae333baae25e2d7431005710"></a><!-- doxytag: member="Mhd::MhdProxy::~MhdProxy" ref="a0d0a220bae333baae25e2d7431005710" args="()" -->
+<a class="anchor" id="ad48ced5d6256eb9f9aaea52831446eff"></a><!-- doxytag: member="Mhd::LAS::~LAS" ref="ad48ced5d6256eb9f9aaea52831446eff" args="()" -->
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMhd_1_1MhdProxy.html">Mhd::MhdProxy</a>&lt; T &gt;::~<a class="el" href="classMhd_1_1MhdProxy.html">MhdProxy</a> </td>
+          <td class="memname"><a class="el" href="classMhd_1_1LAS.html#ad48ced5d6256eb9f9aaea52831446eff">Mhd::LAS::~LAS</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td><code> [inline]</code></td>
+          <td></td>
         </tr>
       </table>
 </div>
@@ -181,29 +161,57 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <hr/><h2>Member Function Documentation</h2>
-<a class="anchor" id="a7ae07a705a897fd4e00e1fb474282593"></a><!-- doxytag: member="Mhd::MhdProxy::Build" ref="a7ae07a705a897fd4e00e1fb474282593" args="()" -->
+<a class="anchor" id="a4f13f477cd458018b3953ba1f35362d8"></a><!-- doxytag: member="Mhd::LAS::ConvertToRas" ref="a4f13f477cd458018b3953ba1f35362d8" args="(size_t i=1)" -->
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">unique_ptr&lt; <a class="el" href="classMhd_1_1MhdOrientation.html">MhdOrientation</a> &gt; <a class="el" href="classMhd_1_1MhdProxy.html">Mhd::MhdProxy</a>&lt; T &gt;::<a class="el" href="classMhd_1_1MhdProxy.html#a7ae07a705a897fd4e00e1fb474282593">Build</a> </td>
+          <td class="memname">void <a class="el" href="classMhd_1_1LAS.html#a4f13f477cd458018b3953ba1f35362d8">Mhd::LAS::ConvertToRas</a> </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td><code> [static]</code></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>i</em> = <code>1</code></td><td>)</td>
+          <td><code> [virtual]</code></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
 
-<p>The builder of the object. </p>
-<dl class="return"><dt><b>Returns:</b></dt><dd>A static unique_ptr&lt;MhdOrientation&gt; </dd></dl>
+<p>Perform orientation to RAS. </p>
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>i-th angle of rotation </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="classMhd_1_1MhdOrientation.html#ad42f327fc9e94d827dba171773cea25f">Mhd::MhdOrientation</a>.</p>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li>lib/include/<a class="el" href="MhdProxy_8hxx_source.html">MhdProxy.hxx</a></li>
+<a class="anchor" id="a6c26a5b3acadce4f71fd91e64fb1406b"></a><!-- doxytag: member="Mhd::LAS::Create" ref="a6c26a5b3acadce4f71fd91e64fb1406b" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMhd_1_1MhdOrientation.html">MhdOrientation</a> * <a class="el" href="classMhd_1_1LAS.html#a6c26a5b3acadce4f71fd91e64fb1406b">Mhd::LAS::Create</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const<code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Construction of the object returning a pointer to the base class. </p>
+<dl class="return"><dt><b>Returns:</b></dt><dd>Pointer to the base class </dd></dl>
+
+<p>Implements <a class="el" href="classMhd_1_1MhdOrientation.html#a5554337cc931090c765f41ce46c335fe">Mhd::MhdOrientation</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
+<li>lib/include/<a class="el" href="MhdOrientationRules_8hxx_source.html">MhdOrientationRules.hxx</a></li>
+<li>lib/src/<a class="el" href="MhdOrientationRules_8cxx.html">MhdOrientationRules.cxx</a></li>
 </ul>
 </div><!-- contents -->
 <!-- window showing the filter options -->

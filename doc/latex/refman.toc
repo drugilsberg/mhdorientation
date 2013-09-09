@@ -31,10 +31,10 @@
 \contentsline {subsection}{\numberline {7.2.2}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{15}{subsection.7.2.2}
 \contentsline {subsubsection}{\numberline {7.2.2.1}\discretionary {-}{}{}Convert\discretionary {-}{}{}To\discretionary {-}{}{}Ras}{15}{subsubsection.7.2.2.1}
 \contentsline {subsubsection}{\numberline {7.2.2.2}\discretionary {-}{}{}Create}{15}{subsubsection.7.2.2.2}
-\contentsline {section}{\numberline {7.3}\discretionary {-}{}{}Mhd\discretionary {-}{}{}:\discretionary {-}{}{}:\discretionary {-}{}{}L\discretionary {-}{}{}S\discretionary {-}{}{}A \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{15}{section.7.3}
+\contentsline {section}{\numberline {7.3}\discretionary {-}{}{}Mhd\discretionary {-}{}{}:\discretionary {-}{}{}:\discretionary {-}{}{}L\discretionary {-}{}{}A\discretionary {-}{}{}S \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{15}{section.7.3}
 \contentsline {subsection}{\numberline {7.3.1}\discretionary {-}{}{}Constructor \& \discretionary {-}{}{}Destructor \discretionary {-}{}{}Documentation}{16}{subsection.7.3.1}
-\contentsline {subsubsection}{\numberline {7.3.1.1}\discretionary {-}{}{}L\discretionary {-}{}{}S\discretionary {-}{}{}A}{16}{subsubsection.7.3.1.1}
-\contentsline {subsubsection}{\numberline {7.3.1.2}$\sim $\discretionary {-}{}{}L\discretionary {-}{}{}S\discretionary {-}{}{}A}{16}{subsubsection.7.3.1.2}
+\contentsline {subsubsection}{\numberline {7.3.1.1}\discretionary {-}{}{}L\discretionary {-}{}{}A\discretionary {-}{}{}S}{16}{subsubsection.7.3.1.1}
+\contentsline {subsubsection}{\numberline {7.3.1.2}$\sim $\discretionary {-}{}{}L\discretionary {-}{}{}A\discretionary {-}{}{}S}{16}{subsubsection.7.3.1.2}
 \contentsline {subsection}{\numberline {7.3.2}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{16}{subsection.7.3.2}
 \contentsline {subsubsection}{\numberline {7.3.2.1}\discretionary {-}{}{}Convert\discretionary {-}{}{}To\discretionary {-}{}{}Ras}{16}{subsubsection.7.3.2.1}
 \contentsline {subsubsection}{\numberline {7.3.2.2}\discretionary {-}{}{}Create}{16}{subsubsection.7.3.2.2}

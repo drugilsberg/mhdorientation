@@ -194,10 +194,10 @@ namespace Mhd
   MhdOrientation * RAI::Create()const { return new RAI(*this);}
 
 
-  //LSA orientation
-  LSA::LSA(){AnatomicalOrientation="LSA";}
+  //LAS orientation
+  LAS::LAS(){AnatomicalOrientation="LAS";}
 
-  void LSA::ConvertToRas(size_t i)
+  void LAS::ConvertToRas(size_t i)
   {
 
     if(i!=1 && i!=2)
@@ -226,21 +226,21 @@ namespace Mhd
     AnatomicalOrientation.erase(AnatomicalOrientation.begin(),AnatomicalOrientation.end());
     AnatomicalOrientation="RAS";
     tmp.push_back(-Offset[0]);
-    tmp.push_back(Offset[2]);
     tmp.push_back(Offset[1]);
+    tmp.push_back(Offset[2]);
 
     Offset.erase(Offset.begin(),Offset.end());
     Offset.push_back(tmp[0]);
     Offset.push_back(tmp[1]);
     Offset.push_back(tmp[2]);
 
-    a_ras1.push_back(-Angles.first[0]);
-    a_ras1.push_back(Angles.first[2]);
-    a_ras1.push_back(Angles.first[1]);
+    a_ras1.push_back(Angles.first[0]);
+    a_ras1.push_back(-Angles.first[1]);
+    a_ras1.push_back(-Angles.first[2]);
 
-    a_ras2.push_back(-Angles.second[0]);
-    a_ras2.push_back(Angles.second[2]);
-    a_ras2.push_back(Angles.second[1]);
+    a_ras2.push_back(Angles.second[0]);
+    a_ras2.push_back(-Angles.second[1]);
+    a_ras2.push_back(-Angles.second[2]);
 
     if (i==1)
       ComputeRotation(a_ras1.data());
@@ -248,7 +248,7 @@ namespace Mhd
       ComputeRotation(a_ras2.data());
   }
 
-  MhdOrientation * LSA::Create()const { return new LSA(*this);}
+  MhdOrientation * LAS::Create()const { return new LAS(*this);}
 }
 
 namespace
@@ -258,5 +258,5 @@ namespace
   MhdProxy<AIL> OA("AIL");
   MhdProxy<ASL> OB("ASL");
   MhdProxy<RAI> OC("RAI");
-  MhdProxy<LSA> OD("LSA");
+  MhdProxy<LAS> OD("LAS");
 }
