@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>MhdOrientation: Class Hierarchy</title>
+<title>MhdOrientation: Member List</title>
 
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
@@ -72,30 +72,35 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
-      <li class="current"><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
       <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+  <div id="nav-path" class="navpath">
+    <ul>
+      <li class="navelem"><a class="el" href="namespacemhd.html">mhd</a>      </li>
+      <li class="navelem"><a class="el" href="classmhd_1_1MhdOrientation.html">MhdOrientation</a>      </li>
     </ul>
   </div>
 </div>
 <div class="header">
   <div class="headertitle">
-<div class="title">Class Hierarchy</div>  </div>
+<div class="title">mhd.MhdOrientation Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock">This inheritance list is sorted roughly, but not completely, alphabetically:</div><ul>
-<li><a class="el" href="classMhd_1_1MhdFactory.html">Mhd::MhdFactory</a></li>
-<li><a class="el" href="classMhd_1_1MhdOrientation.html">Mhd::MhdOrientation</a><ul>
-<li><a class="el" href="classMhd_1_1AIL.html">Mhd::AIL</a></li>
-<li><a class="el" href="classMhd_1_1ASL.html">Mhd::ASL</a></li>
-<li><a class="el" href="classMhd_1_1LAS.html">Mhd::LAS</a></li>
-<li><a class="el" href="classMhd_1_1RAI.html">Mhd::RAI</a></li>
-</ul>
-</li>
-<li><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></li>
-<li><a class="el" href="classMhd_1_1MhdProxy.html">Mhd::MhdProxy&lt; T &gt;</a></li>
-<li><a class="el" href="classMhd_1_1MhdPythonOrientation.html">Mhd::MhdPythonOrientation</a></li>
-</ul>
-</div><!-- contents -->
+This is the complete list of members for <a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a>, including all inherited members.<table>
+  <tr class="memlist"><td><a class="el" href="classmhd_1_1MhdOrientation.html#aad64ce31339ef4be7625b19e7b867030">__init__</a></td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmhd_1_1MhdOrientation.html#a30936df906cee1edfd0f6081019b1e18">AO</a></td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmhd_1_1MhdOrientation.html#a0113c6e528358b0fe65a235b4e489b01">C</a></td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmhd_1_1MhdOrientation.html#ab7304b78e194b370db64047fa66503df">ComputeAngles</a></td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmhd_1_1MhdOrientation.html#a8ac0da2545dcd2f76cfa6a10eba42000">ComputeRotation</a></td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmhd_1_1MhdOrientation.html#adc32e0338fbf46d4cddad458e7a4d4da">ConvertToRas</a></td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmhd_1_1MhdOrientation.html#aa1a32694e08237f4ef62602dcae7787a">O</a></td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmhd_1_1MhdOrientation.html#a147972c55d37e3bcf908cabbad888127">obj</a></td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmhd_1_1MhdOrientation.html#a2b3ff73afbc453dc9ffe5f28d5e64127">OrientationReader</a></td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmhd_1_1MhdOrientation.html#ac0798d7eca7045356b2622b84636dfff">OrientationWriter</a></td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmhd_1_1MhdOrientation.html#a4a7a9286e1cee416946804caf0d4b3b7">R</a></td><td><a class="el" href="classmhd_1_1MhdOrientation.html">mhd.MhdOrientation</a></td><td></td></tr>
+</table></div><!-- contents -->
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -113,7 +118,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 9 2013 21:40:30 for MhdOrientation by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Sep 9 2013 21:40:28 for MhdOrientation by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>
