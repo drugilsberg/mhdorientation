@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.3.14)  9 SEP 2013 13:15
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.3.14)  9 SEP 2013 15:37
 entering extended mode
  %&-line parsing enabled.
 **refman
@@ -1114,7 +1114,7 @@ LaTeX Font Info:    Try loading font information for T1+pcr on input line 11.
  (/usr/share/texmf-texlive/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-<classMhd_1_1AIL.pdf, id=978, 501.875pt x 290.94696pt>
+<classMhd_1_1AIL.pdf, id=973, 501.875pt x 290.94696pt>
 File: classMhd_1_1AIL.pdf Graphic file (type pdf)
 
 <use classMhd_1_1AIL.pdf> [13
@@ -1149,7 +1149,7 @@ Underfull \vbox (badness 10000) detected at line 68
  []
 
 ) (./classMhd_1_1ASL.tex
-<classMhd_1_1ASL.pdf, id=1003, 501.875pt x 290.94696pt>
+<classMhd_1_1ASL.pdf, id=998, 501.875pt x 290.94696pt>
 File: classMhd_1_1ASL.pdf Graphic file (type pdf)
 
 <use classMhd_1_1ASL.pdf> [14 <./classMhd_1_1ASL.pdf>]
@@ -1170,7 +1170,7 @@ Underfull \vbox (badness 10000) detected at line 60
  []
 
 ) (./classMhd_1_1LAS.tex
-<classMhd_1_1LAS.pdf, id=1028, 501.875pt x 290.94696pt>
+<classMhd_1_1LAS.pdf, id=1023, 501.875pt x 290.94696pt>
 File: classMhd_1_1LAS.pdf Graphic file (type pdf)
 
 <use classMhd_1_1LAS.pdf> [15]
@@ -1193,48 +1193,48 @@ Underfull \vbox (badness 10000) detected at line 60
 ) (./classMhd_1_1MhdFactory.tex [16 <./classMhd_1_1LAS.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 60.
+(hyperref)                removing `math shift' on input line 58.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\sim' on input line 60.
+(hyperref)                removing `\sim' on input line 58.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 60.
+(hyperref)                removing `math shift' on input line 58.
 
 [17]
-Underfull \vbox (badness 10000) detected at line 86
+Underfull \vbox (badness 10000) detected at line 77
  []
 
 
-Overfull \hbox (21.89388pt too wide) in alignment at lines 91--94
+Overfull \hbox (21.89388pt too wide) in alignment at lines 82--85
  [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 94
+Underfull \vbox (badness 10000) detected at line 85
  []
 
 
-Underfull \vbox (badness 10000) detected at line 123
+Underfull \vbox (badness 10000) detected at line 114
  []
 
 
-Overfull \hbox (21.89388pt too wide) in alignment at lines 125--128
+Overfull \hbox (21.89388pt too wide) in alignment at lines 116--119
  [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 128
+Underfull \vbox (badness 10000) detected at line 119
  []
 
 [18]
-Underfull \vbox (badness 10000) detected at line 158
+Underfull \vbox (badness 10000) detected at line 149
  []
 
 ) (./classMhd_1_1MhdOrientation.tex
-<classMhd_1_1MhdOrientation.pdf, id=1100, 501.875pt x 72.73172pt>
+<classMhd_1_1MhdOrientation.pdf, id=1093, 501.875pt x 72.73172pt>
 File: classMhd_1_1MhdOrientation.pdf Graphic file (type pdf)
 
 <use classMhd_1_1MhdOrientation.pdf>
@@ -1270,7 +1270,6 @@ Underfull \vbox (badness 10000) detected at line 232
 Underfull \vbox (badness 10000) detected at line 251
  []
 
-[22]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 265.
@@ -1291,7 +1290,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Underfull \vbox (badness 10000) detected at line 276
  []
 
-[23])
+
+Overfull \vbox (13.07166pt too high) has occurred while \output is active []
+
+
+[22])
 
 ! LaTeX Error: File `classmhd_1_1MhdOrientation.tex' not found.
 
@@ -1323,7 +1326,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 3.
 
-
+[23]
 Overfull \hbox (21.89388pt too wide) in alignment at lines 33--36
  [] [] 
  []
@@ -1333,9 +1336,6 @@ Underfull \vbox (badness 10000) detected at line 36
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [24]
 Underfull \vbox (badness 10000) detected at line 55
  []
 
@@ -1351,11 +1351,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 62.
 
-) (./classMhd_1_1MhdPythonOrientation.tex [25]
+[24]) (./classMhd_1_1MhdPythonOrientation.tex [25]
 Underfull \vbox (badness 10000) detected at line 69
  []
 
-[26]
+
 Underfull \vbox (badness 10000) detected at line 99
  []
 
@@ -1367,7 +1367,7 @@ Underfull \vbox (badness 10000) detected at line 115
 Underfull \vbox (badness 10000) detected at line 131
  []
 
-
+[26]
 Underfull \vbox (badness 10000) detected at line 150
  []
 
@@ -1375,15 +1375,15 @@ Underfull \vbox (badness 10000) detected at line 150
 Underfull \vbox (badness 10000) detected at line 166
  []
 
-[27]
+
 Underfull \vbox (badness 10000) detected at line 185
  []
 
 ) (./classMhd_1_1RAI.tex
-<classMhd_1_1RAI.pdf, id=1265, 501.875pt x 290.94696pt>
+<classMhd_1_1RAI.pdf, id=1252, 501.875pt x 290.94696pt>
 File: classMhd_1_1RAI.pdf Graphic file (type pdf)
 
-<use classMhd_1_1RAI.pdf>
+<use classMhd_1_1RAI.pdf> [27]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 41.
@@ -1396,13 +1396,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 41.
 
-[28 <./classMhd_1_1RAI.pdf>]
+
 Underfull \vbox (badness 10000) detected at line 60
  []
 
-) [29] [30
-
-]
+) [28 <./classMhd_1_1RAI.pdf>]
 Chapter 8.
 (./MHD_8hxx.tex
 Underfull \hbox (badness 10000) in paragraph at lines 9--11
@@ -1425,7 +1423,9 @@ OML/ztmcm/m/it/10 >$\OMS/ztmcm/m/n/10 ^^B \T1/pcr/m/n/10 #include $\OML/ztmcm/m
 /it/10 <$\T1/pcr/m/n/10 algorithm$\OML/ztmcm/m/it/10 >$\OMS/ztmcm/m/n/10 ^^B
  []
 
-[31]) (./MhdOrientation_8hxx.tex
+[29
+
+]) (./MhdOrientation_8hxx.tex
 Underfull \hbox (badness 5504) in paragraph at lines 9--17
 \T1/pcr/m/n/10 #include $\OML/ztmcm/m/it/10 <$\T1/pcr/m/n/10 cstdlib$\OML/ztmcm
 /m/it/10 >$\OMS/ztmcm/m/n/10 ^^B \T1/pcr/m/n/10 #include $\OML/ztmcm/m/it/10 <$
@@ -1434,13 +1434,13 @@ Underfull \hbox (badness 5504) in paragraph at lines 9--17
 S/ztmcm/m/n/10 ^^B
  []
 
-[32]) (./MhdOrientationRules_8hxx.tex [33]) (./MhdProxy_8hxx.tex
+[30]) (./MhdOrientationRules_8hxx.tex [31]) (./MhdProxy_8hxx.tex
 Underfull \hbox (badness 10000) in paragraph at lines 9--12
 []\T1/pcr/m/n/10 #include "-Mhd-Factory.-hxx"\OMS/ztmcm/m/n/9 ^^B \T1/pcr/m/n/1
 0 #include "-Mhd-Orientation.-hxx"\OMS/ztmcm/m/n/9 ^^B
  []
 
-) (./MhdPythonOrientation_8hxx.tex [34]
+) (./MhdPythonOrientation_8hxx.tex [32]
 Underfull \hbox (badness 5504) in paragraph at lines 9--17
 \T1/pcr/m/n/10 #include $\OML/ztmcm/m/it/10 <$\T1/pcr/m/n/10 cstdlib$\OML/ztmcm
 /m/it/10 >$\OMS/ztmcm/m/n/10 ^^B \T1/pcr/m/n/10 #include $\OML/ztmcm/m/it/10 <$
@@ -1449,9 +1449,9 @@ Underfull \hbox (badness 5504) in paragraph at lines 9--17
 S/ztmcm/m/n/10 ^^B
  []
 
-) (./mhd_8py.tex [35]) (./MhdFactory_8cxx.tex [36]) (./MhdFileReader_8cxx.tex)
-(./MhdOrientation_8cxx.tex [37]) (./MhdOrientationRules_8cxx.tex)
-(./MhdPythonOrientation_8cxx.tex [38]) (./MhdPythonWrapper_8cxx.tex [39]
+) (./mhd_8py.tex [33]) (./MhdFactory_8cxx.tex [34]) (./MhdFileReader_8cxx.tex)
+(./MhdOrientation_8cxx.tex [35]) (./MhdOrientationRules_8cxx.tex)
+(./MhdPythonOrientation_8cxx.tex [36]) (./MhdPythonWrapper_8cxx.tex [37]
 Underfull \vbox (badness 10000) detected at line 60
  []
 
@@ -1462,7 +1462,7 @@ Underfull \vbox (badness 10000) detected at line 79
 
 Underfull \vbox (badness 1484) has occurred while \output is active []
 
- [40]
+ [38]
 Underfull \vbox (badness 10000) detected at line 95
  []
 
@@ -1478,7 +1478,7 @@ Underfull \vbox (badness 10000) detected at line 133
 Underfull \vbox (badness 10000) detected at line 152
  []
 
-[41]
+[39]
 Underfull \vbox (badness 10000) detected at line 171
  []
 
@@ -1490,7 +1490,7 @@ Underfull \vbox (badness 10000) detected at line 190
 Underfull \vbox (badness 10000) detected at line 228
  []
 
-) (./README_8md.tex) (./refman.ind) [42] (./refman.aux)
+) (./README_8md.tex) (./refman.ind) [40] (./refman.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1499,10 +1499,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 10534 strings out of 493848
- 151255 string characters out of 1152823
- 241704 words of memory out of 3000000
- 13141 multiletter control sequences out of 15000+50000
+ 10528 strings out of 493848
+ 151083 string characters out of 1152823
+ 243704 words of memory out of 3000000
+ 13139 multiletter control sequences out of 15000+50000
  81565 words of font info for 122 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  41i,13n,58p,703b,498s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1523,9 +1523,9 @@ sr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvb8ac.pfb></usr/share/texmf-t
 exlive/fonts/type1/urw/helvetic/uhvbo8ac.pfb></usr/share/texmf-texlive/fonts/ty
 pe1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/
 uhvro8a.pfb>
-Output written on refman.pdf (50 pages, 364275 bytes).
+Output written on refman.pdf (48 pages, 361107 bytes).
 PDF statistics:
- 1589 PDF objects out of 1728 (max. 8388607)
- 384 named destinations out of 1000 (max. 500000)
- 1266 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1573 PDF objects out of 1728 (max. 8388607)
+ 380 named destinations out of 1000 (max. 500000)
+ 1258 words of extra memory for PDF output out of 10000 (max. 10000000)
 

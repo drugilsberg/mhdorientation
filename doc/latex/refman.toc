@@ -42,30 +42,29 @@
 \contentsline {subsection}{\numberline {7.4.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{17}{subsection.7.4.1}
 \contentsline {subsection}{\numberline {7.4.2}\discretionary {-}{}{}Member \discretionary {-}{}{}Typedef \discretionary {-}{}{}Documentation}{17}{subsection.7.4.2}
 \contentsline {subsubsection}{\numberline {7.4.2.1}\discretionary {-}{}{}Collector}{17}{subsubsection.7.4.2.1}
-\contentsline {subsection}{\numberline {7.4.3}\discretionary {-}{}{}Constructor \& \discretionary {-}{}{}Destructor \discretionary {-}{}{}Documentation}{18}{subsection.7.4.3}
-\contentsline {subsubsection}{\numberline {7.4.3.1}$\sim $\discretionary {-}{}{}Mhd\discretionary {-}{}{}Factory}{18}{subsubsection.7.4.3.1}
-\contentsline {subsubsection}{\numberline {7.4.3.2}\discretionary {-}{}{}Mhd\discretionary {-}{}{}Factory}{18}{subsubsection.7.4.3.2}
+\contentsline {subsection}{\numberline {7.4.3}\discretionary {-}{}{}Constructor \& \discretionary {-}{}{}Destructor \discretionary {-}{}{}Documentation}{17}{subsection.7.4.3}
+\contentsline {subsubsection}{\numberline {7.4.3.1}$\sim $\discretionary {-}{}{}Mhd\discretionary {-}{}{}Factory}{17}{subsubsection.7.4.3.1}
 \contentsline {subsection}{\numberline {7.4.4}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{18}{subsection.7.4.4}
 \contentsline {subsubsection}{\numberline {7.4.4.1}\discretionary {-}{}{}Get}{18}{subsubsection.7.4.4.1}
 \contentsline {subsubsection}{\numberline {7.4.4.2}\discretionary {-}{}{}Instance}{18}{subsubsection.7.4.4.2}
 \contentsline {subsubsection}{\numberline {7.4.4.3}\discretionary {-}{}{}Register}{18}{subsubsection.7.4.4.3}
-\contentsline {subsubsection}{\numberline {7.4.4.4}\discretionary {-}{}{}Registered}{19}{subsubsection.7.4.4.4}
+\contentsline {subsubsection}{\numberline {7.4.4.4}\discretionary {-}{}{}Registered}{18}{subsubsection.7.4.4.4}
 \contentsline {subsubsection}{\numberline {7.4.4.5}\discretionary {-}{}{}Unset}{19}{subsubsection.7.4.4.5}
 \contentsline {section}{\numberline {7.5}\discretionary {-}{}{}Mhd\discretionary {-}{}{}:\discretionary {-}{}{}:\discretionary {-}{}{}Mhd\discretionary {-}{}{}Orientation \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{19}{section.7.5}
 \contentsline {subsection}{\numberline {7.5.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{20}{subsection.7.5.1}
-\contentsline {subsection}{\numberline {7.5.2}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{21}{subsection.7.5.2}
-\contentsline {subsubsection}{\numberline {7.5.2.1}\discretionary {-}{}{}A\discretionary {-}{}{}O}{21}{subsubsection.7.5.2.1}
+\contentsline {subsection}{\numberline {7.5.2}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{20}{subsection.7.5.2}
+\contentsline {subsubsection}{\numberline {7.5.2.1}\discretionary {-}{}{}A\discretionary {-}{}{}O}{20}{subsubsection.7.5.2.1}
 \contentsline {subsubsection}{\numberline {7.5.2.2}\discretionary {-}{}{}C}{21}{subsubsection.7.5.2.2}
 \contentsline {subsubsection}{\numberline {7.5.2.3}\discretionary {-}{}{}Compute\discretionary {-}{}{}Angles}{21}{subsubsection.7.5.2.3}
 \contentsline {subsubsection}{\numberline {7.5.2.4}\discretionary {-}{}{}Compute\discretionary {-}{}{}Rotation}{21}{subsubsection.7.5.2.4}
 \contentsline {subsubsection}{\numberline {7.5.2.5}\discretionary {-}{}{}Convert\discretionary {-}{}{}To\discretionary {-}{}{}Ras}{21}{subsubsection.7.5.2.5}
-\contentsline {subsubsection}{\numberline {7.5.2.6}\discretionary {-}{}{}Create}{22}{subsubsection.7.5.2.6}
-\contentsline {subsubsection}{\numberline {7.5.2.7}\discretionary {-}{}{}O}{22}{subsubsection.7.5.2.7}
+\contentsline {subsubsection}{\numberline {7.5.2.6}\discretionary {-}{}{}Create}{21}{subsubsection.7.5.2.6}
+\contentsline {subsubsection}{\numberline {7.5.2.7}\discretionary {-}{}{}O}{21}{subsubsection.7.5.2.7}
 \contentsline {subsubsection}{\numberline {7.5.2.8}\discretionary {-}{}{}Orientation\discretionary {-}{}{}Reader}{22}{subsubsection.7.5.2.8}
 \contentsline {subsubsection}{\numberline {7.5.2.9}\discretionary {-}{}{}Orientation\discretionary {-}{}{}Writer}{22}{subsubsection.7.5.2.9}
 \contentsline {subsubsection}{\numberline {7.5.2.10}\discretionary {-}{}{}R}{22}{subsubsection.7.5.2.10}
-\contentsline {subsection}{\numberline {7.5.3}\discretionary {-}{}{}Friends \discretionary {-}{}{}And \discretionary {-}{}{}Related \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{23}{subsection.7.5.3}
-\contentsline {subsubsection}{\numberline {7.5.3.1}operator$<$$<$}{23}{subsubsection.7.5.3.1}
+\contentsline {subsection}{\numberline {7.5.3}\discretionary {-}{}{}Friends \discretionary {-}{}{}And \discretionary {-}{}{}Related \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{22}{subsection.7.5.3}
+\contentsline {subsubsection}{\numberline {7.5.3.1}operator$<$$<$}{22}{subsubsection.7.5.3.1}
 \contentsline {subsection}{\numberline {7.5.4}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{23}{subsection.7.5.4}
 \contentsline {subsubsection}{\numberline {7.5.4.1}\discretionary {-}{}{}Anatomical\discretionary {-}{}{}Orientation}{23}{subsubsection.7.5.4.1}
 \contentsline {subsubsection}{\numberline {7.5.4.2}\discretionary {-}{}{}Angles}{23}{subsubsection.7.5.4.2}
@@ -80,76 +79,76 @@
 \contentsline {subsubsection}{\numberline {7.5.4.11}\discretionary {-}{}{}Element\discretionary {-}{}{}Type}{23}{subsubsection.7.5.4.11}
 \contentsline {subsubsection}{\numberline {7.5.4.12}\discretionary {-}{}{}N\discretionary {-}{}{}Dims}{23}{subsubsection.7.5.4.12}
 \contentsline {subsubsection}{\numberline {7.5.4.13}\discretionary {-}{}{}Object\discretionary {-}{}{}Type}{23}{subsubsection.7.5.4.13}
-\contentsline {subsubsection}{\numberline {7.5.4.14}\discretionary {-}{}{}Offset}{24}{subsubsection.7.5.4.14}
-\contentsline {subsubsection}{\numberline {7.5.4.15}\discretionary {-}{}{}Transform\discretionary {-}{}{}Matrix}{24}{subsubsection.7.5.4.15}
-\contentsline {section}{\numberline {7.6}\discretionary {-}{}{}Mhd\discretionary {-}{}{}:\discretionary {-}{}{}:\discretionary {-}{}{}Mhd\discretionary {-}{}{}Proxy$<$ \discretionary {-}{}{}T $>$ \discretionary {-}{}{}Class \discretionary {-}{}{}Template \discretionary {-}{}{}Reference}{24}{section.7.6}
+\contentsline {subsubsection}{\numberline {7.5.4.14}\discretionary {-}{}{}Offset}{23}{subsubsection.7.5.4.14}
+\contentsline {subsubsection}{\numberline {7.5.4.15}\discretionary {-}{}{}Transform\discretionary {-}{}{}Matrix}{23}{subsubsection.7.5.4.15}
+\contentsline {section}{\numberline {7.6}\discretionary {-}{}{}Mhd\discretionary {-}{}{}:\discretionary {-}{}{}:\discretionary {-}{}{}Mhd\discretionary {-}{}{}Proxy$<$ \discretionary {-}{}{}T $>$ \discretionary {-}{}{}Class \discretionary {-}{}{}Template \discretionary {-}{}{}Reference}{23}{section.7.6}
 \contentsline {subsection}{\numberline {7.6.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{24}{subsection.7.6.1}
 \contentsline {subsection}{\numberline {7.6.2}\discretionary {-}{}{}Constructor \& \discretionary {-}{}{}Destructor \discretionary {-}{}{}Documentation}{24}{subsection.7.6.2}
-\contentsline {subsubsection}{\numberline {7.6.2.1}\discretionary {-}{}{}Mhd\discretionary {-}{}{}Proxy}{25}{subsubsection.7.6.2.1}
-\contentsline {subsubsection}{\numberline {7.6.2.2}$\sim $\discretionary {-}{}{}Mhd\discretionary {-}{}{}Proxy}{25}{subsubsection.7.6.2.2}
-\contentsline {subsection}{\numberline {7.6.3}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{25}{subsection.7.6.3}
-\contentsline {subsubsection}{\numberline {7.6.3.1}\discretionary {-}{}{}Build}{25}{subsubsection.7.6.3.1}
+\contentsline {subsubsection}{\numberline {7.6.2.1}\discretionary {-}{}{}Mhd\discretionary {-}{}{}Proxy}{24}{subsubsection.7.6.2.1}
+\contentsline {subsubsection}{\numberline {7.6.2.2}$\sim $\discretionary {-}{}{}Mhd\discretionary {-}{}{}Proxy}{24}{subsubsection.7.6.2.2}
+\contentsline {subsection}{\numberline {7.6.3}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{24}{subsection.7.6.3}
+\contentsline {subsubsection}{\numberline {7.6.3.1}\discretionary {-}{}{}Build}{24}{subsubsection.7.6.3.1}
 \contentsline {section}{\numberline {7.7}\discretionary {-}{}{}Mhd\discretionary {-}{}{}:\discretionary {-}{}{}:\discretionary {-}{}{}Mhd\discretionary {-}{}{}Python\discretionary {-}{}{}Orientation \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{25}{section.7.7}
-\contentsline {subsection}{\numberline {7.7.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{26}{subsection.7.7.1}
-\contentsline {subsection}{\numberline {7.7.2}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{26}{subsection.7.7.2}
-\contentsline {subsubsection}{\numberline {7.7.2.1}\discretionary {-}{}{}A\discretionary {-}{}{}O}{26}{subsubsection.7.7.2.1}
+\contentsline {subsection}{\numberline {7.7.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{25}{subsection.7.7.1}
+\contentsline {subsection}{\numberline {7.7.2}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{25}{subsection.7.7.2}
+\contentsline {subsubsection}{\numberline {7.7.2.1}\discretionary {-}{}{}A\discretionary {-}{}{}O}{25}{subsubsection.7.7.2.1}
 \contentsline {subsubsection}{\numberline {7.7.2.2}\discretionary {-}{}{}C}{26}{subsubsection.7.7.2.2}
 \contentsline {subsubsection}{\numberline {7.7.2.3}\discretionary {-}{}{}Compute\discretionary {-}{}{}Angles}{26}{subsubsection.7.7.2.3}
 \contentsline {subsubsection}{\numberline {7.7.2.4}\discretionary {-}{}{}Compute\discretionary {-}{}{}Rotation}{26}{subsubsection.7.7.2.4}
-\contentsline {subsubsection}{\numberline {7.7.2.5}\discretionary {-}{}{}Convert\discretionary {-}{}{}To\discretionary {-}{}{}Ras}{27}{subsubsection.7.7.2.5}
-\contentsline {subsubsection}{\numberline {7.7.2.6}\discretionary {-}{}{}O}{27}{subsubsection.7.7.2.6}
+\contentsline {subsubsection}{\numberline {7.7.2.5}\discretionary {-}{}{}Convert\discretionary {-}{}{}To\discretionary {-}{}{}Ras}{26}{subsubsection.7.7.2.5}
+\contentsline {subsubsection}{\numberline {7.7.2.6}\discretionary {-}{}{}O}{26}{subsubsection.7.7.2.6}
 \contentsline {subsubsection}{\numberline {7.7.2.7}\discretionary {-}{}{}Orientation\discretionary {-}{}{}Reader}{27}{subsubsection.7.7.2.7}
 \contentsline {subsubsection}{\numberline {7.7.2.8}\discretionary {-}{}{}Orientation\discretionary {-}{}{}Writer}{27}{subsubsection.7.7.2.8}
 \contentsline {subsubsection}{\numberline {7.7.2.9}\discretionary {-}{}{}R}{27}{subsubsection.7.7.2.9}
-\contentsline {section}{\numberline {7.8}\discretionary {-}{}{}Mhd\discretionary {-}{}{}:\discretionary {-}{}{}:\discretionary {-}{}{}R\discretionary {-}{}{}A\discretionary {-}{}{}I \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{28}{section.7.8}
+\contentsline {section}{\numberline {7.8}\discretionary {-}{}{}Mhd\discretionary {-}{}{}:\discretionary {-}{}{}:\discretionary {-}{}{}R\discretionary {-}{}{}A\discretionary {-}{}{}I \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{27}{section.7.8}
 \contentsline {subsection}{\numberline {7.8.1}\discretionary {-}{}{}Constructor \& \discretionary {-}{}{}Destructor \discretionary {-}{}{}Documentation}{28}{subsection.7.8.1}
 \contentsline {subsubsection}{\numberline {7.8.1.1}\discretionary {-}{}{}R\discretionary {-}{}{}A\discretionary {-}{}{}I}{28}{subsubsection.7.8.1.1}
 \contentsline {subsubsection}{\numberline {7.8.1.2}$\sim $\discretionary {-}{}{}R\discretionary {-}{}{}A\discretionary {-}{}{}I}{28}{subsubsection.7.8.1.2}
 \contentsline {subsection}{\numberline {7.8.2}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{28}{subsection.7.8.2}
 \contentsline {subsubsection}{\numberline {7.8.2.1}\discretionary {-}{}{}Convert\discretionary {-}{}{}To\discretionary {-}{}{}Ras}{28}{subsubsection.7.8.2.1}
-\contentsline {subsubsection}{\numberline {7.8.2.2}\discretionary {-}{}{}Create}{29}{subsubsection.7.8.2.2}
-\contentsline {chapter}{\numberline {8}\discretionary {-}{}{}File \discretionary {-}{}{}Documentation}{31}{chapter.8}
-\contentsline {section}{\numberline {8.1}lib/include/\discretionary {-}{}{}M\discretionary {-}{}{}H\discretionary {-}{}{}D.hxx \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{31}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{31}{subsection.8.1.1}
-\contentsline {section}{\numberline {8.2}lib/include/\discretionary {-}{}{}Mhd\discretionary {-}{}{}Factory.hxx \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{31}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{32}{subsection.8.2.1}
-\contentsline {section}{\numberline {8.3}lib/include/\discretionary {-}{}{}Mhd\discretionary {-}{}{}Orientation.hxx \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{32}{section.8.3}
-\contentsline {subsection}{\numberline {8.3.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{33}{subsection.8.3.1}
-\contentsline {subsection}{\numberline {8.3.2}\discretionary {-}{}{}Define \discretionary {-}{}{}Documentation}{33}{subsection.8.3.2}
-\contentsline {subsubsection}{\numberline {8.3.2.1}\discretionary {-}{}{}P\discretionary {-}{}{}I}{33}{subsubsection.8.3.2.1}
-\contentsline {section}{\numberline {8.4}lib/include/\discretionary {-}{}{}Mhd\discretionary {-}{}{}Orientation\discretionary {-}{}{}Rules.hxx \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{33}{section.8.4}
-\contentsline {subsection}{\numberline {8.4.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{34}{subsection.8.4.1}
-\contentsline {subsection}{\numberline {8.4.2}\discretionary {-}{}{}Define \discretionary {-}{}{}Documentation}{34}{subsection.8.4.2}
-\contentsline {subsubsection}{\numberline {8.4.2.1}\discretionary {-}{}{}M\discretionary {-}{}{}H\discretionary {-}{}{}D\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}T\discretionary {-}{}{}A\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N\discretionary {-}{}{}R\discretionary {-}{}{}U\discretionary {-}{}{}L\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}H\discretionary {-}{}{}X\discretionary {-}{}{}X}{34}{subsubsection.8.4.2.1}
-\contentsline {section}{\numberline {8.5}lib/include/\discretionary {-}{}{}Mhd\discretionary {-}{}{}Proxy.hxx \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{34}{section.8.5}
-\contentsline {subsection}{\numberline {8.5.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{34}{subsection.8.5.1}
-\contentsline {section}{\numberline {8.6}lib/include/\discretionary {-}{}{}Mhd\discretionary {-}{}{}Python\discretionary {-}{}{}Orientation.hxx \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{35}{section.8.6}
-\contentsline {subsection}{\numberline {8.6.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{35}{subsection.8.6.1}
-\contentsline {subsection}{\numberline {8.6.2}\discretionary {-}{}{}Define \discretionary {-}{}{}Documentation}{35}{subsection.8.6.2}
-\contentsline {subsubsection}{\numberline {8.6.2.1}\discretionary {-}{}{}P\discretionary {-}{}{}I}{35}{subsubsection.8.6.2.1}
-\contentsline {section}{\numberline {8.7}lib/pymodule/mhd.py \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{35}{section.8.7}
-\contentsline {subsection}{\numberline {8.7.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{36}{subsection.8.7.1}
-\contentsline {section}{\numberline {8.8}lib/src/\discretionary {-}{}{}Mhd\discretionary {-}{}{}Factory.cxx \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{36}{section.8.8}
-\contentsline {subsection}{\numberline {8.8.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{36}{subsection.8.8.1}
-\contentsline {section}{\numberline {8.9}lib/src/\discretionary {-}{}{}Mhd\discretionary {-}{}{}File\discretionary {-}{}{}Reader.cxx \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{37}{section.8.9}
-\contentsline {subsection}{\numberline {8.9.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{37}{subsection.8.9.1}
-\contentsline {section}{\numberline {8.10}lib/src/\discretionary {-}{}{}Mhd\discretionary {-}{}{}Orientation.cxx \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{37}{section.8.10}
-\contentsline {subsection}{\numberline {8.10.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{38}{subsection.8.10.1}
-\contentsline {section}{\numberline {8.11}lib/src/\discretionary {-}{}{}Mhd\discretionary {-}{}{}Orientation\discretionary {-}{}{}Rules.cxx \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{38}{section.8.11}
-\contentsline {subsection}{\numberline {8.11.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{38}{subsection.8.11.1}
-\contentsline {section}{\numberline {8.12}lib/src/\discretionary {-}{}{}Mhd\discretionary {-}{}{}Python\discretionary {-}{}{}Orientation.cxx \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{39}{section.8.12}
-\contentsline {subsection}{\numberline {8.12.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{39}{subsection.8.12.1}
-\contentsline {section}{\numberline {8.13}lib/src/\discretionary {-}{}{}Mhd\discretionary {-}{}{}Python\discretionary {-}{}{}Wrapper.cxx \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{39}{section.8.13}
-\contentsline {subsection}{\numberline {8.13.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{40}{subsection.8.13.1}
-\contentsline {subsection}{\numberline {8.13.2}\discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{40}{subsection.8.13.2}
-\contentsline {subsubsection}{\numberline {8.13.2.1}\discretionary {-}{}{}Mhd\discretionary {-}{}{}Orientation\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}A\discretionary {-}{}{}O}{40}{subsubsection.8.13.2.1}
-\contentsline {subsubsection}{\numberline {8.13.2.2}\discretionary {-}{}{}Mhd\discretionary {-}{}{}Orientation\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}C}{40}{subsubsection.8.13.2.2}
-\contentsline {subsubsection}{\numberline {8.13.2.3}\discretionary {-}{}{}Mhd\discretionary {-}{}{}Orientation\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Compute\discretionary {-}{}{}Angles}{41}{subsubsection.8.13.2.3}
-\contentsline {subsubsection}{\numberline {8.13.2.4}\discretionary {-}{}{}Mhd\discretionary {-}{}{}Orientation\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Compute\discretionary {-}{}{}Rotation}{41}{subsubsection.8.13.2.4}
-\contentsline {subsubsection}{\numberline {8.13.2.5}\discretionary {-}{}{}Mhd\discretionary {-}{}{}Orientation\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Convert\discretionary {-}{}{}To\discretionary {-}{}{}Ras}{41}{subsubsection.8.13.2.5}
-\contentsline {subsubsection}{\numberline {8.13.2.6}\discretionary {-}{}{}Mhd\discretionary {-}{}{}Orientation\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}O}{41}{subsubsection.8.13.2.6}
-\contentsline {subsubsection}{\numberline {8.13.2.7}\discretionary {-}{}{}Mhd\discretionary {-}{}{}Orientation\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Orientation\discretionary {-}{}{}Reader}{41}{subsubsection.8.13.2.7}
-\contentsline {subsubsection}{\numberline {8.13.2.8}\discretionary {-}{}{}Mhd\discretionary {-}{}{}Orientation\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Orientation\discretionary {-}{}{}Writer}{42}{subsubsection.8.13.2.8}
-\contentsline {subsubsection}{\numberline {8.13.2.9}\discretionary {-}{}{}Mhd\discretionary {-}{}{}Orientation\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Python}{42}{subsubsection.8.13.2.9}
-\contentsline {subsubsection}{\numberline {8.13.2.10}\discretionary {-}{}{}Mhd\discretionary {-}{}{}Orientation\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}R}{42}{subsubsection.8.13.2.10}
-\contentsline {section}{\numberline {8.14}\discretionary {-}{}{}R\discretionary {-}{}{}E\discretionary {-}{}{}A\discretionary {-}{}{}D\discretionary {-}{}{}M\discretionary {-}{}{}E.\discretionary {-}{}{}md \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{42}{section.8.14}
+\contentsline {subsubsection}{\numberline {7.8.2.2}\discretionary {-}{}{}Create}{28}{subsubsection.7.8.2.2}
+\contentsline {chapter}{\numberline {8}\discretionary {-}{}{}File \discretionary {-}{}{}Documentation}{29}{chapter.8}
+\contentsline {section}{\numberline {8.1}lib/include/\discretionary {-}{}{}M\discretionary {-}{}{}H\discretionary {-}{}{}D.hxx \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{29}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{29}{subsection.8.1.1}
+\contentsline {section}{\numberline {8.2}lib/include/\discretionary {-}{}{}Mhd\discretionary {-}{}{}Factory.hxx \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{29}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{30}{subsection.8.2.1}
+\contentsline {section}{\numberline {8.3}lib/include/\discretionary {-}{}{}Mhd\discretionary {-}{}{}Orientation.hxx \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{30}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{31}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}\discretionary {-}{}{}Define \discretionary {-}{}{}Documentation}{31}{subsection.8.3.2}
+\contentsline {subsubsection}{\numberline {8.3.2.1}\discretionary {-}{}{}P\discretionary {-}{}{}I}{31}{subsubsection.8.3.2.1}
+\contentsline {section}{\numberline {8.4}lib/include/\discretionary {-}{}{}Mhd\discretionary {-}{}{}Orientation\discretionary {-}{}{}Rules.hxx \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{31}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{32}{subsection.8.4.1}
+\contentsline {subsection}{\numberline {8.4.2}\discretionary {-}{}{}Define \discretionary {-}{}{}Documentation}{32}{subsection.8.4.2}
+\contentsline {subsubsection}{\numberline {8.4.2.1}\discretionary {-}{}{}M\discretionary {-}{}{}H\discretionary {-}{}{}D\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}T\discretionary {-}{}{}A\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N\discretionary {-}{}{}R\discretionary {-}{}{}U\discretionary {-}{}{}L\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}H\discretionary {-}{}{}X\discretionary {-}{}{}X}{32}{subsubsection.8.4.2.1}
+\contentsline {section}{\numberline {8.5}lib/include/\discretionary {-}{}{}Mhd\discretionary {-}{}{}Proxy.hxx \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{32}{section.8.5}
+\contentsline {subsection}{\numberline {8.5.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{32}{subsection.8.5.1}
+\contentsline {section}{\numberline {8.6}lib/include/\discretionary {-}{}{}Mhd\discretionary {-}{}{}Python\discretionary {-}{}{}Orientation.hxx \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{33}{section.8.6}
+\contentsline {subsection}{\numberline {8.6.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{33}{subsection.8.6.1}
+\contentsline {subsection}{\numberline {8.6.2}\discretionary {-}{}{}Define \discretionary {-}{}{}Documentation}{33}{subsection.8.6.2}
+\contentsline {subsubsection}{\numberline {8.6.2.1}\discretionary {-}{}{}P\discretionary {-}{}{}I}{33}{subsubsection.8.6.2.1}
+\contentsline {section}{\numberline {8.7}lib/pymodule/mhd.py \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{33}{section.8.7}
+\contentsline {subsection}{\numberline {8.7.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{34}{subsection.8.7.1}
+\contentsline {section}{\numberline {8.8}lib/src/\discretionary {-}{}{}Mhd\discretionary {-}{}{}Factory.cxx \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{34}{section.8.8}
+\contentsline {subsection}{\numberline {8.8.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{34}{subsection.8.8.1}
+\contentsline {section}{\numberline {8.9}lib/src/\discretionary {-}{}{}Mhd\discretionary {-}{}{}File\discretionary {-}{}{}Reader.cxx \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{35}{section.8.9}
+\contentsline {subsection}{\numberline {8.9.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{35}{subsection.8.9.1}
+\contentsline {section}{\numberline {8.10}lib/src/\discretionary {-}{}{}Mhd\discretionary {-}{}{}Orientation.cxx \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{35}{section.8.10}
+\contentsline {subsection}{\numberline {8.10.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{36}{subsection.8.10.1}
+\contentsline {section}{\numberline {8.11}lib/src/\discretionary {-}{}{}Mhd\discretionary {-}{}{}Orientation\discretionary {-}{}{}Rules.cxx \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{36}{section.8.11}
+\contentsline {subsection}{\numberline {8.11.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{36}{subsection.8.11.1}
+\contentsline {section}{\numberline {8.12}lib/src/\discretionary {-}{}{}Mhd\discretionary {-}{}{}Python\discretionary {-}{}{}Orientation.cxx \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{37}{section.8.12}
+\contentsline {subsection}{\numberline {8.12.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{37}{subsection.8.12.1}
+\contentsline {section}{\numberline {8.13}lib/src/\discretionary {-}{}{}Mhd\discretionary {-}{}{}Python\discretionary {-}{}{}Wrapper.cxx \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{37}{section.8.13}
+\contentsline {subsection}{\numberline {8.13.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{38}{subsection.8.13.1}
+\contentsline {subsection}{\numberline {8.13.2}\discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{38}{subsection.8.13.2}
+\contentsline {subsubsection}{\numberline {8.13.2.1}\discretionary {-}{}{}Mhd\discretionary {-}{}{}Orientation\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}A\discretionary {-}{}{}O}{38}{subsubsection.8.13.2.1}
+\contentsline {subsubsection}{\numberline {8.13.2.2}\discretionary {-}{}{}Mhd\discretionary {-}{}{}Orientation\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}C}{38}{subsubsection.8.13.2.2}
+\contentsline {subsubsection}{\numberline {8.13.2.3}\discretionary {-}{}{}Mhd\discretionary {-}{}{}Orientation\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Compute\discretionary {-}{}{}Angles}{39}{subsubsection.8.13.2.3}
+\contentsline {subsubsection}{\numberline {8.13.2.4}\discretionary {-}{}{}Mhd\discretionary {-}{}{}Orientation\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Compute\discretionary {-}{}{}Rotation}{39}{subsubsection.8.13.2.4}
+\contentsline {subsubsection}{\numberline {8.13.2.5}\discretionary {-}{}{}Mhd\discretionary {-}{}{}Orientation\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Convert\discretionary {-}{}{}To\discretionary {-}{}{}Ras}{39}{subsubsection.8.13.2.5}
+\contentsline {subsubsection}{\numberline {8.13.2.6}\discretionary {-}{}{}Mhd\discretionary {-}{}{}Orientation\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}O}{39}{subsubsection.8.13.2.6}
+\contentsline {subsubsection}{\numberline {8.13.2.7}\discretionary {-}{}{}Mhd\discretionary {-}{}{}Orientation\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Orientation\discretionary {-}{}{}Reader}{39}{subsubsection.8.13.2.7}
+\contentsline {subsubsection}{\numberline {8.13.2.8}\discretionary {-}{}{}Mhd\discretionary {-}{}{}Orientation\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Orientation\discretionary {-}{}{}Writer}{40}{subsubsection.8.13.2.8}
+\contentsline {subsubsection}{\numberline {8.13.2.9}\discretionary {-}{}{}Mhd\discretionary {-}{}{}Orientation\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Python}{40}{subsubsection.8.13.2.9}
+\contentsline {subsubsection}{\numberline {8.13.2.10}\discretionary {-}{}{}Mhd\discretionary {-}{}{}Orientation\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}R}{40}{subsubsection.8.13.2.10}
+\contentsline {section}{\numberline {8.14}\discretionary {-}{}{}R\discretionary {-}{}{}E\discretionary {-}{}{}A\discretionary {-}{}{}D\discretionary {-}{}{}M\discretionary {-}{}{}E.\discretionary {-}{}{}md \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{40}{section.8.14}
